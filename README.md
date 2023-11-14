@@ -1,4 +1,4 @@
-# Vinyls Shop
+# Retro Rewind Vinyls
 
 ## Table of contents
 
@@ -20,17 +20,18 @@
 
 ## Technologies
 
+* HTML
 * CSS
 * JavaScript
 * Visual Studio Code
 * Github
 * Node.js
-* mySQL/ Sequelize/ mySQL workbench
+* MongoDB
+* Mongoose
 * Bootstrap
-* Insomnia
+* React
+* Apollo Server
 * Heroku
-
-
 
 ## Picture Refs
 
@@ -38,6 +39,10 @@
 
 ## Authors
 
+* Zachary Mcdowell
+* Kelly Ramirez
+* Andrew Walsh
+* Stephen Twomey
 
 ## License
 
