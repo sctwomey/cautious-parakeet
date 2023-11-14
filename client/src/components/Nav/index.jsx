@@ -1,5 +1,6 @@
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import { FaRecordVinyl } from "react-icons/fa";
 
 function Nav() {
 
@@ -42,8 +43,8 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️</span>
-          -Shop-Shop
+          <span role="img" aria-label="shopping bag"><FaRecordVinyl /></span>
+          Retro Rewind Vinyls
         </Link>
       </h1>
 
