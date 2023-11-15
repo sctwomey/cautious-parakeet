@@ -9,7 +9,7 @@ function ProductItem(item) {
 
   const {
     image,
-    name,
+    title,
     _id,
     price,
     quantity
@@ -42,10 +42,10 @@ function ProductItem(item) {
     <div className="card px-1 py-1">
       <Link to={`/products/${_id}`}>
         <img
-          alt={name}
+          alt={title}
           src={`/images/${image}`}
         />
-        <p>{name}</p>
+        <p>{title}</p>
       </Link>
       <div>
         <div>{quantity} {pluralize("item", quantity)} in stock</div>
