@@ -17,11 +17,11 @@ export const ADD_ORDER = gql`
       purchaseDate
       products {
         _id
-        name
+        title
         description
         price
         quantity
-        category {
+        genre {
           name
         }
       }
