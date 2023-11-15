@@ -26,7 +26,7 @@ const productSchema = new Schema({
   },
   genre: {
     type: Schema.Types.ObjectId,
-    ref: 'Category',
+    ref: 'Genre',
     required: true
   }
 });
