@@ -1,21 +1,23 @@
 const db = require('./connection');
-const { User, Product, Category } = require('../models');
+const { User, Product, Genre } = require('../models');
 const cleanDB = require('./cleanDB');
 
 db.once('open', async () => {
-  await cleanDB('Category', 'categories');
+  await cleanDB('Genre', 'genres');
   await cleanDB('Product', 'products');
   await cleanDB('User', 'users');
 
-  const categories = await Category.insertMany([
-    { name: 'Food' },
-    { name: 'Household Supplies' },
-    { name: 'Electronics' },
-    { name: 'Books' },
-    { name: 'Toys' }
+  const genres = await Genre.insertMany([
+    { name: 'Heavy Metal' },
+    { name: 'Rock' },
+    { name: 'Hip-Hop' },
+    { name: 'Jazz' },
+    { name: 'Funk' },
+    { name: 'Folk' },
+    { name: 'Synthwave' }
   ]);
 
-  console.log('categories seeded');
+  console.log('genres seeded');
 
   const products = await Product.insertMany([
     {
@@ -130,9 +132,8 @@ db.once('open', async () => {
   console.log('products seeded');
 
   await User.create({
-    firstName: 'Pamela',
-    lastName: 'Washington',
-    email: 'pamela@testmail.com',
+    userName: 'pam',
+    email: 'pam@email.com',
     password: 'password12345',
     orders: [
       {
@@ -142,9 +143,8 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Elijah',
-    lastName: 'Holt',
-    email: 'eholt@testmail.com',
+    userName: 'eli',
+    email: 'eli@email.com',
     password: 'password12345'
   });
 
