@@ -7,7 +7,7 @@ import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/spinner.gif';
 
-function ProductList() {
+function RandomProducts() {
   const [state, dispatch] = useStoreContext();
   const [randomProducts, setRandomProducts] = useState([]);
 
@@ -68,4 +68,4 @@ function ProductList() {
   );
 }
 
-export default ProductList;
+export default RandomProducts;
