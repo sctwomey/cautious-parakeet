@@ -7,16 +7,16 @@ const resolvers = {
     genres: async () => {
       return await Genre.find();
     },
-    products: async (parent, { genre, title }) => {
+    products: async (parent, { genre, name }) => {
       const params = {};
 
       if (genre) {
         params.genre = genre;
       }
 
-      if (title) {
-        params.title = {
-          $regex: title,
+      if (name) {
+        params.name = {
+          $regex: name,
         };
       }
 

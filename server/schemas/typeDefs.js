@@ -1,7 +1,7 @@
 const typeDefs = `
   type Genre {
     _id: ID
-    title: String
+    name: String
   }
 
   type Product {
