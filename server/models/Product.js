@@ -3,12 +3,12 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const productSchema = new Schema({
-  name: {
+  title: {
     type: String,
     required: true,
     trim: true
   },
-  description: {
+  artist: {
     type: String
   },
   image: {
@@ -24,7 +24,7 @@ const productSchema = new Schema({
     min: 0,
     default: 0
   },
-  category: {
+  genre: {
     type: Schema.Types.ObjectId,
     ref: 'Category',
     required: true
