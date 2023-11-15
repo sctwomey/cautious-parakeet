@@ -2,49 +2,49 @@ import { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { useStoreContext } from '../../utils/GlobalState';
 import {
-  UPDATE_CATEGORIES,
-  UPDATE_CURRENT_CATEGORY,
+  UPDATE_GENRES,
+  UPDATE_CURRENT_GENRES,
 } from '../../utils/actions';
-import { QUERY_CATEGORIES } from '../../utils/queries';
+import { QUERY_GENRES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 
-function CategoryMenu() {
+function GenreMenu() {
   const [state, dispatch] = useStoreContext();
 
-  const { categories } = state;
+  const { genres } = state;
 
-  const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
+  const { loading, data: genreData } = useQuery(QUERY_GENRES);
 
   useEffect(() => {
-    if (categoryData) {
+    if (genreData) {
       dispatch({
-        type: UPDATE_CATEGORIES,
-        categories: categoryData.categories,
+        type: UPDATE_GENRES,
+        genres: genreData.genres,
       });
-      categoryData.categories.forEach((category) => {
-        idbPromise('categories', 'put', category);
+      genreData.genre.forEach((genre) => {
+        idbPromise('genres', 'put', genre);
       });
     } else if (!loading) {
-      idbPromise('categories', 'get').then((categories) => {
+      idbPromise('genres', 'get').then((genres) => {
         dispatch({
-          type: UPDATE_CATEGORIES,
-          categories: categories,
+          type: UPDATE_GENRES,
+          genres: genres,
         });
       });
     }
-  }, [categoryData, loading, dispatch]);
+  }, [genreData, loading, dispatch]);
 
   const handleClick = (id) => {
     dispatch({
-      type: UPDATE_CURRENT_CATEGORY,
-      currentCategory: id,
+      type: UPDATE_CURRENT_GENRES,
+      currentGenre: id,
     });
   };
 
   return (
     <div>
-      <h2>Choose a Category:</h2>
-      {categories.map((item) => (
+      <h2>Choose a Genre:</h2>
+      {genres.map((item) => (
         <button
           key={item._id}
           onClick={() => {
@@ -65,4 +65,4 @@ function CategoryMenu() {
   );
 }
 
-export default CategoryMenu;
+export default GenreMenu;
