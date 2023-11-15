@@ -27,6 +27,7 @@
 * Github
 * Node.js
 * MongoDB
+* MongoDB Compass
 * Mongoose
 * Bootstrap
 * React
