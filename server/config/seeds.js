@@ -119,7 +119,7 @@ db.once('open', async () => {
     {
       title: 'Hello Nasty',
       artist:'Beastie Boys',
-      image: 'Beastie-Boys_hello-Nasty.jpg',
+      image: 'Beastie-Boys-Hello-Nasty.png',
       genre: genres[2]._id,
       price: 24.99,
       quantity: 5
@@ -199,7 +199,7 @@ db.once('open', async () => {
     {
       title: 'GUNSHIP',
       artist:'Gunship',
-      image: 'GUNSHIP.jpg',
+      image: 'GUNSHIP.jpeg',
       genre: genres[6]._id,
       price: 31.99,
       quantity: 5
