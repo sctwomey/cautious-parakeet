@@ -23,7 +23,7 @@ db.once('open', async () => {
     {
       title: 'From Fear to Eternity',
       artist:'Iron Maiden',
-      image: 'Iron-Miden-FFE-Best-Of.jpg',
+      image: 'Iron-Maiden-FFE-Best-Of.jpg',
       genre: genres[0]._id,
       price: 49.99,
       quantity: 5
@@ -95,7 +95,7 @@ db.once('open', async () => {
     {
       title: 'Rumours',
       artist:'Fleetwood Mac',
-      image: 'Rumours-Fleetwood.jpeg',
+      image: 'Rumors-Fleetwood.jpeg',
       genre: genres[1]._id,
       price: 24.99,
       quantity: 9
