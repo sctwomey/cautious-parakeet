@@ -4,6 +4,8 @@ import './index.css';
 
 import App from './App.jsx';
 import Home from './pages/Home';
+import Shop from './pages/Shop';
+import Contact from './pages/Contact';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
@@ -35,6 +37,12 @@ const router = createBrowserRouter([
       }, {
         path: '/success',
         element: <Success />
+      }, {
+        path: '/shop',
+        element: <Shop />
+      }, {
+        path: '/contact',
+        element: <Contact />
       },
     ],
   },

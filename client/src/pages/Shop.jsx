@@ -1,18 +1,16 @@
 import ProductList from "../components/ProductList";
 // import GenreMenu from "../components/GenreMenu";
 import Cart from "../components/Cart";
-import RandomProductList from "../components/RandomProductList";
+// import RandomProductList from "../components/RandomProductList";
 
-const Home = () => {
+const Shop = () => {
   return (
-    <div>
     <div className="container">
           {/* <GenreMenu /> */}
-          <RandomProductList />
+          <ProductList />
           <Cart />
-    </div>
     </div>
   );
 };
 
-export default Home;
+export default Shop;

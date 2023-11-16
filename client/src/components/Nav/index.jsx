@@ -19,6 +19,18 @@ function Nav() {
               Logout
             </a>
           </li>
+          <li className="mx-1">
+          <input className="search-bar" type="text" placeholder="Search.."></input>
+          </li>
+          <li className="mx-1">
+          <a href="">About</a>
+          </li>
+          <li className="mx-1">
+          <a href="/Shop">Shop</a>
+          </li>
+          <li className="mx-1">
+          <a href="/Contact">Contact</a>
+          </li>
         </ul>
       );
     } else {
@@ -34,6 +46,7 @@ function Nav() {
               Login
             </Link>
           </li>
+          <input type="text" placeholder="Search.."></input>
         </ul>
       );
     }
