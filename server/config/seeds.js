@@ -49,7 +49,7 @@ db.once('open', async () => {
       artist:'Gorillaz',
       image: 'Gorillaz-The-Now-Now.jpg',
       genre: genres[1]._id,
-      price: 24.99,
+      price: 25.99,
       quantity: 500
     },
     {
@@ -57,7 +57,7 @@ db.once('open', async () => {
       artist:'Gorillaz',
       image: 'Gorillaz-Gsides.jpg',
       genre: genres[1]._id,
-      price: 24.99,
+      price: 27.99,
       quantity: 500
     },
     {
@@ -65,7 +65,7 @@ db.once('open', async () => {
       artist:'Gorillaz',
       image: 'Demon-Days-Gorillaz.jpg',
       genre: genres[1]._id,
-      price: 24.99,
+      price: 39.99,
       quantity: 500
     },
     {
@@ -81,7 +81,7 @@ db.once('open', async () => {
       artist:'Hiatus Kaiyote',
       image: 'CYW-Hiatus.jpg',
       genre: genres[4]._id,
-      price: 24.99,
+      price: 45.99,
       quantity: 500
     },
     {
@@ -89,7 +89,7 @@ db.once('open', async () => {
       artist:'Hiatus Kaiyote',
       image: 'Tomahawk-Hiatus.jpg',
       genre: genres[4]._id,
-      price: 24.99,
+      price: 55.99,
       quantity: 500
     },
     {
@@ -105,7 +105,7 @@ db.once('open', async () => {
       artist:'MF Doom',
       image: 'Mf-Doom-Mm-food.jpg',
       genre: genres[2]._id,
-      price: 24.99,
+      price: 40.00,
       quantity: 500
     },
     {
@@ -113,7 +113,7 @@ db.once('open', async () => {
       artist:'Franc Moody',
       image: 'Franc-Moody-Dream-in-Colour.jpg',
       genre: genres[4]._id,
-      price: 24.99,
+      price: 29.99,
       quantity: 500
     },
     {
@@ -129,7 +129,7 @@ db.once('open', async () => {
       artist:'Beastie Boys',
       image: 'Beastie-Boys-Solid-Gold.jpg',
       genre: genres[2]._id,
-      price: 24.99,
+      price: 35.99,
       quantity: 500
     },
     {
@@ -137,7 +137,7 @@ db.once('open', async () => {
       artist:'Jimmy Buffett',
       image: 'Jimmy-Buffet.jpg',
       genre: genres[5]._id,
-      price: 24.99,
+      price: 29.99,
       quantity: 500
     },
     {
@@ -145,7 +145,7 @@ db.once('open', async () => {
       artist:'Anderson .Paak',
       image: 'Malibu.jpg',
       genre: genres[2]._id,
-      price: 24.99,
+      price: 31.99,
       quantity: 500
     },
     {
@@ -177,7 +177,7 @@ db.once('open', async () => {
       artist:'The Midnight',
       image: 'Endless-Summer.jpg',
       genre: genres[6]._id,
-      price: 24.99,
+      price: 34.99,
       quantity: 500
     },
     {
@@ -185,47 +185,47 @@ db.once('open', async () => {
       artist:'The Midnight',
       image: '.jpg',
       genre: genres[6]._id,
+      price: 32.99,
+      quantity: 500
+    },
+    {
+      title: 'Dark All Day',
+      artist:'Gunship',
+      image: 'Dark-All-Day.jpg',
+      genre: genres[6]._id,
+      price: 35.95,
+      quantity: 500
+    },
+    {
+      title: 'GUNSHIP',
+      artist:'Gunship',
+      image: 'GUNSHIP.jpg',
+      genre: genres[6]._id,
+      price: 31.99,
+      quantity: 500
+    },
+    {
+      title: 'Black Blood Red Kiss',
+      artist:'Gunship',
+      image: 'Black-Blood-Red-Kiss.jpg',
+      genre: genres[6]._id,
+      price: 25.99,
+      quantity: 500
+    },
+    {
+      title: 'Fox On the Run',
+      artist:'The Sweet',
+      image: 'Fox-on-the-Run.jpg',
+      genre: genres[1]._id,
       price: 24.99,
       quantity: 500
     },
     {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
-      genre: genres[2]._id,
-      price: 24.99,
-      quantity: 500
-    },
-    {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
-      genre: genres[2]._id,
-      price: 24.99,
-      quantity: 500
-    },
-    {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
-      genre: genres[2]._id,
-      price: 24.99,
-      quantity: 500
-    },
-    {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
-      genre: genres[2]._id,
-      price: 24.99,
-      quantity: 500
-    },
-    {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
-      genre: genres[2]._id,
-      price: 24.99,
+      title: 'Cherry Bomb',
+      artist:'The Runaways',
+      image: 'Cherry-Bomb.jpg',
+      genre: genres[1]._id,
+      price: 29.96,
       quantity: 500
     },
     {
