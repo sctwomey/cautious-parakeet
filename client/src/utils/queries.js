@@ -5,6 +5,12 @@ export const QUERY_PRODUCTS = gql`
   products {
     image
     title
+    artist
+    price
+    quantity
+    genre {
+      _id
+    }
   }
 }
 `;
