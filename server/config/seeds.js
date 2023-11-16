@@ -23,10 +23,10 @@ db.once('open', async () => {
     {
       title: 'From Fear to Eternity',
       artist:'Iron Maiden',
-      image: '',
+      image: 'Iron-Miden-FFE-Best-Of.jpg',
       genre: genres[0]._id,
       price: 49.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Blackened',
@@ -34,7 +34,7 @@ db.once('open', async () => {
       image: 'Metallica-Blackened.jpg',
       genre: genres[0]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 10
     },
     {
       title: 'Master of Puppets',
@@ -42,7 +42,7 @@ db.once('open', async () => {
       image: 'Metallica-Master.jpg',
       genre: genres[0]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 11
     },
     {
       title: 'The Now Now',
@@ -50,23 +50,23 @@ db.once('open', async () => {
       image: 'Gorillaz-The-Now-Now.jpg',
       genre: genres[1]._id,
       price: 25.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'G-Sides',
       artist:'Gorillaz',
-      image: 'Gorillaz-Gsides.jpg',
+      image: 'Gorillaz-Gsides.jpeg',
       genre: genres[1]._id,
       price: 27.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Demon Days',
       artist:'Gorillaz',
-      image: 'Demon-Days-Gorillaz.jpg',
+      image: 'Demon-Days-Gorillaz.jpeg',
       genre: genres[1]._id,
       price: 39.99,
-      quantity: 500
+      quantity: 17
     },
     {
       title: 'Gorillaz',
@@ -74,31 +74,31 @@ db.once('open', async () => {
       image: 'Gorillaz.jpg',
       genre: genres[1]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 15
     },
     {
       title: 'Choose Your Weapon',
       artist:'Hiatus Kaiyote',
-      image: 'CYW-Hiatus.jpg',
+      image: 'CYW-Hiatus.jpeg',
       genre: genres[4]._id,
       price: 45.99,
-      quantity: 500
+      quantity: 20
     },
     {
       title: 'Tawk Tomahawk',
       artist:'Hiatus Kaiyote',
-      image: 'Tomahawk-Hiatus.jpg',
+      image: 'Tomahawk-Hiatus.jpeg',
       genre: genres[4]._id,
       price: 55.99,
-      quantity: 500
+      quantity: 10
     },
     {
       title: 'Rumours',
       artist:'Fleetwood Mac',
-      image: 'Rumours-Fleetwood.jpg',
+      image: 'Rumors-Fleetwood.jpeg',
       genre: genres[1]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 9
     },
     {
       title: 'Mm Food',
@@ -106,15 +106,15 @@ db.once('open', async () => {
       image: 'Mf-Doom-Mm-food.jpg',
       genre: genres[2]._id,
       price: 40.00,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Dream in Colour',
       artist:'Franc Moody',
-      image: 'Franc-Moody-Dream-in-Colour.jpg',
+      image: 'Franc-Moody-Dream-in-Colour.png',
       genre: genres[4]._id,
       price: 29.99,
-      quantity: 500
+      quantity: 11
     },
     {
       title: 'Hello Nasty',
@@ -122,7 +122,7 @@ db.once('open', async () => {
       image: 'Beastie-Boys_hello-Nasty.jpg',
       genre: genres[2]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Solid Gold Hits',
@@ -130,7 +130,7 @@ db.once('open', async () => {
       image: 'Beastie-Boys-Solid-Gold.jpg',
       genre: genres[2]._id,
       price: 35.99,
-      quantity: 500
+      quantity: 12
     },
     {
       title: 'Equal Strain On All Parts',
@@ -138,15 +138,15 @@ db.once('open', async () => {
       image: 'Jimmy-Buffet.jpg',
       genre: genres[5]._id,
       price: 29.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Malibu',
       artist:'Anderson .Paak',
-      image: 'Malibu.jpg',
+      image: 'Malibu.jpeg',
       genre: genres[2]._id,
       price: 31.99,
-      quantity: 500
+      quantity: 3
     },
     {
       title: 'The Best Of Sinatra',
@@ -154,7 +154,7 @@ db.once('open', async () => {
       image: 'Best-Of-Sinatra.jpg',
       genre: genres[3]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 10
     },
     {
       title: 'Nice N Easy',
@@ -162,15 +162,15 @@ db.once('open', async () => {
       image: 'Nice-n-Easy.jpg',
       genre: genres[3]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'The Very Best of the Rat Pack',
       artist:'The Rat Pack',
-      image: 'Rat.jpg',
+      image: 'Rat.jpeg',
       genre: genres[3]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 2
     },
     {
       title: 'Endless Summer',
@@ -178,23 +178,23 @@ db.once('open', async () => {
       image: 'Endless-Summer.jpg',
       genre: genres[6]._id,
       price: 34.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Days of Thunder',
       artist:'The Midnight',
-      image: '.jpg',
+      image: 'Days-of-Thunder.jpg',
       genre: genres[6]._id,
       price: 32.99,
-      quantity: 500
+      quantity: 19
     },
     {
       title: 'Dark All Day',
       artist:'Gunship',
-      image: 'Dark-All-Day.jpg',
+      image: 'Dark-All-Day.jpeg',
       genre: genres[6]._id,
       price: 35.95,
-      quantity: 500
+      quantity: 16
     },
     {
       title: 'GUNSHIP',
@@ -202,23 +202,23 @@ db.once('open', async () => {
       image: 'GUNSHIP.jpg',
       genre: genres[6]._id,
       price: 31.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Black Blood Red Kiss',
       artist:'Gunship',
-      image: 'Black-Blood-Red-Kiss.jpg',
+      image: 'Black-Blood-Red-Kiss.jpeg',
       genre: genres[6]._id,
       price: 25.99,
-      quantity: 500
+      quantity: 13
     },
     {
       title: 'Fox On the Run',
       artist:'The Sweet',
-      image: 'Fox-on-the-Run.jpg',
+      image: 'Fox-on-the-Run.jpeg',
       genre: genres[1]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 2
     },
     {
       title: 'Cherry Bomb',
@@ -226,7 +226,7 @@ db.once('open', async () => {
       image: 'Cherry-Bomb.jpg',
       genre: genres[1]._id,
       price: 29.96,
-      quantity: 500
+      quantity: 3
     },
     {
       title: 'Goodbye Yellow Brick Road',
@@ -234,23 +234,23 @@ db.once('open', async () => {
       image: 'Goodbye-Yellow-Brick-Road.jpg',
       genre: genres[1]._id,
       price: 34.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Elton John',
       artist:'Elton John',
-      image: 'Elton-John.jpg',
+      image: 'Elton-John.jpeg',
       genre: genres[1]._id,
       price: 27.99,
-      quantity: 500
+      quantity: 12
     },
     {
       title: 'Reg Strike Back',
       artist:'Elton',
-      image: 'Reg-Strikes-Back.jpg',
+      image: 'Reg-Strikes-Back.jpeg',
       genre: genres[1]._id,
       price: 24.97,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Aladdin Sane',
@@ -258,7 +258,7 @@ db.once('open', async () => {
       image: 'Aladinn-Sane.jpeg',
       genre: genres[1]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Space Oddity',
@@ -266,7 +266,7 @@ db.once('open', async () => {
       image: 'Space.jpg',
       genre: genres[1]._id,
       price: 29.99,
-      quantity: 500
+      quantity: 11
     },
     {
       title: 'Low',
@@ -274,7 +274,7 @@ db.once('open', async () => {
       image: 'Low.jpg',
       genre: genres[1]._id,
       price: 29.99,
-      quantity: 500
+      quantity: 9
     },
     {
       title: 'The Colour and the Shape',
@@ -282,7 +282,7 @@ db.once('open', async () => {
       image: 'The-Colour-and-the-Shape.jpg',
       genre: genres[1]._id,
       price: 29.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Medicine At Midnight',
@@ -290,7 +290,7 @@ db.once('open', async () => {
       image: 'Medicine-At-Midnight.jpg',
       genre: genres[1]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 10
     },
     {
       title: 'Pablo Honey',
@@ -298,47 +298,79 @@ db.once('open', async () => {
       image: 'Pablo-Honey.jpg',
       genre: genres[1]._id,
       price: 29.99,
-      quantity: 500
+      quantity: 8
     },
     {
       title: 'Goat',
       artist:'The Jesus Lizard',
-      image: 'Goat.jpg',
+      image: 'Goat.png',
       genre: genres[1]._id,
       price: 28.99,
-      quantity: 500
+      quantity: 5
     },
     {
       title: 'Liar',
       artist:'The Jesus Lizard',
-      image: 'Mf-Doom-Mm-food.jpg',
+      image: 'Liar.jpg',
       genre: genres[2]._id,
       price: 24.99,
-      quantity: 500
+      quantity: 7
     },
     {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
+      title: 'Enter (36 Chambers)',
+      artist:'Wu-Tang Clan',
+      image: 'Enter.jpg',
       genre: genres[2]._id,
-      price: 24.99,
-      quantity: 500
+      price: 29.99,
+      quantity: 13
     },
     {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
+      title: 'Tougher Than Leather',
+      artist:'Run DMC',
+      image: 'Tougher-Than-Leather.jpeg',
       genre: genres[2]._id,
-      price: 24.99,
-      quantity: 500
+      price: 31.99,
+      quantity: 15
     },
     {
-      title: 'Mm Food',
-      artist:'MF Doom',
-      image: 'Mf-Doom-Mm-food.jpg',
+      title: 'Live at the Apollo',
+      artist:'Run DMC',
+      image: 'Live-at-the-Apollo.jpg',
       genre: genres[2]._id,
-      price: 24.99,
-      quantity: 500
+      price: 25.99,
+      quantity: 2
+    },
+    {
+      title: 'Reachin (a new refutation of time and space)',
+      artist:'Digable Planets',
+      image: 'Reachin.jpg',
+      genre: genres[2]._id,
+      price: 27.99,
+      quantity: 8
+    },
+    {
+      title: 'Blowout Comb',
+      artist:'Digable Planets',
+      image: 'Blowout-Comb.jpg',
+      genre: genres[2]._id,
+      price: 34.99,
+      quantity: 5
+    },
+    {
+      title: 'Madvillain',
+      artist:'MF Doom',
+      image: 'Madvillain.jpg',
+      genre: genres[2]._id,
+      price: 49.99,
+      quantity: 2
+    },
+    {
+      title: 'Operation Doomsday',
+      artist:'MF Doom',
+      image: 'Operation-Doomsday.jpeg',
+      genre: genres[2]._id,
+      price: 44.99,
+      quantity: 4
     },
   ]);
 
