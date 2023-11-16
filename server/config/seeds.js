@@ -95,7 +95,7 @@ db.once('open', async () => {
     {
       title: 'Rumours',
       artist:'Fleetwood Mac',
-      image: 'Rumors-Fleetwood.jpeg',
+      image: 'Rumours-Fleetwood.jpeg',
       genre: genres[1]._id,
       price: 24.99,
       quantity: 9
