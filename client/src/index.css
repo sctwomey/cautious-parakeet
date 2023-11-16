@@ -73,6 +73,7 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
 }
 
 a:hover {
@@ -85,6 +86,7 @@ header {
 
 header a {
   color: var(--light);
+  font-size: 20px;
 }
 
 button {
