@@ -229,6 +229,110 @@ db.once('open', async () => {
       quantity: 500
     },
     {
+      title: 'Goodbye Yellow Brick Road',
+      artist:'Elton John',
+      image: 'Goodbye-Yellow-Brick-Road.jpg',
+      genre: genres[1]._id,
+      price: 34.99,
+      quantity: 500
+    },
+    {
+      title: 'Elton John',
+      artist:'Elton John',
+      image: 'Elton-John.jpg',
+      genre: genres[1]._id,
+      price: 27.99,
+      quantity: 500
+    },
+    {
+      title: 'Reg Strike Back',
+      artist:'Elton',
+      image: 'Reg-Strikes-Back.jpg',
+      genre: genres[1]._id,
+      price: 24.97,
+      quantity: 500
+    },
+    {
+      title: 'Aladdin Sane',
+      artist:'David Bowie',
+      image: 'Aladinn-Sane.jpeg',
+      genre: genres[1]._id,
+      price: 24.99,
+      quantity: 500
+    },
+    {
+      title: 'Space Oddity',
+      artist:'David Bowie',
+      image: 'Space.jpg',
+      genre: genres[1]._id,
+      price: 29.99,
+      quantity: 500
+    },
+    {
+      title: 'Low',
+      artist:'David Bowie',
+      image: 'Low.jpg',
+      genre: genres[1]._id,
+      price: 29.99,
+      quantity: 500
+    },
+    {
+      title: 'The Colour and the Shape',
+      artist:'Foo Fighters',
+      image: 'The-Colour-and-the-Shape.jpg',
+      genre: genres[1]._id,
+      price: 29.99,
+      quantity: 500
+    },
+    {
+      title: 'Medicine At Midnight',
+      artist:'Foo Fighters',
+      image: 'Medicine-At-Midnight.jpg',
+      genre: genres[1]._id,
+      price: 24.99,
+      quantity: 500
+    },
+    {
+      title: 'Pablo Honey',
+      artist:'Radiohead',
+      image: 'Pablo-Honey.jpg',
+      genre: genres[1]._id,
+      price: 29.99,
+      quantity: 500
+    },
+    {
+      title: 'Goat',
+      artist:'The Jesus Lizard',
+      image: 'Goat.jpg',
+      genre: genres[1]._id,
+      price: 28.99,
+      quantity: 500
+    },
+    {
+      title: 'Liar',
+      artist:'The Jesus Lizard',
+      image: 'Mf-Doom-Mm-food.jpg',
+      genre: genres[2]._id,
+      price: 24.99,
+      quantity: 500
+    },
+    {
+      title: 'Mm Food',
+      artist:'MF Doom',
+      image: 'Mf-Doom-Mm-food.jpg',
+      genre: genres[2]._id,
+      price: 24.99,
+      quantity: 500
+    },
+    {
+      title: 'Mm Food',
+      artist:'MF Doom',
+      image: 'Mf-Doom-Mm-food.jpg',
+      genre: genres[2]._id,
+      price: 24.99,
+      quantity: 500
+    },
+    {
       title: 'Mm Food',
       artist:'MF Doom',
       image: 'Mf-Doom-Mm-food.jpg',
