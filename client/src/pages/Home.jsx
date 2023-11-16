@@ -1,5 +1,5 @@
 // import ProductList from "../components/ProductList";
-// import CategoryMenu from "../components/GenreMenu";
+// import GenreMenu from "../components/GenreMenu";
 import Cart from "../components/Cart";
 import RandomProductList from "../components/RandomProductList";
 

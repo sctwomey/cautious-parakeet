@@ -57,8 +57,6 @@ function RandomProducts() {
               _id={product._id}
               image={product.image}
               title={product.title}
-              price={product.price}
-              quantity={product.quantity}
             />
           ))}
         </div>

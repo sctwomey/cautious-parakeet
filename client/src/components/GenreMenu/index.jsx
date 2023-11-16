@@ -3,7 +3,7 @@ import { useQuery } from '@apollo/client';
 import { useStoreContext } from '../../utils/GlobalState';
 import {
   UPDATE_GENRES,
-  UPDATE_CURRENT_GENRES,
+  UPDATE_CURRENT_GENRE,
 } from '../../utils/actions';
 import { QUERY_GENRES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
@@ -36,7 +36,7 @@ function GenreMenu() {
 
   const handleClick = (id) => {
     dispatch({
-      type: UPDATE_CURRENT_GENRES,
+      type: UPDATE_CURRENT_GENRE,
       currentGenre: id,
     });
   };

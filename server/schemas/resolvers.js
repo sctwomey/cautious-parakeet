@@ -20,7 +20,7 @@ const resolvers = {
         };
       }
 
-      return await Product.find(genre);
+      return await Product.find({});
     },
     product: async (parent, { _id }) => {
       return await Product.findById(_id).populate('genre');
