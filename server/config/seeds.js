@@ -23,7 +23,7 @@ db.once('open', async () => {
     {
       title: 'From Fear to Eternity',
       artist:'Iron Maiden',
-      image: 'Iron-Miden-FFE-Best-Of.jpg',
+      image: 'Maiden.jpg',
       genre: genres[0]._id,
       price: 49.99,
       quantity: 5
@@ -135,7 +135,7 @@ db.once('open', async () => {
     {
       title: 'Equal Strain On All Parts',
       artist:'Jimmy Buffett',
-      image: 'Jimmy-Buffet.jpg',
+      image: 'Jimmy-Buffett.jpg',
       genre: genres[5]._id,
       price: 29.99,
       quantity: 5
@@ -255,7 +255,7 @@ db.once('open', async () => {
     {
       title: 'Aladdin Sane',
       artist:'David Bowie',
-      image: 'Aladinn-Sane.jpeg',
+      image: 'Aladdin-Sane.jpeg',
       genre: genres[1]._id,
       price: 24.99,
       quantity: 5
