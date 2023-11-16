@@ -23,7 +23,7 @@ db.once('open', async () => {
     {
       title: 'From Fear to Eternity',
       artist:'Iron Maiden',
-      image: 'Iron-Maiden-FFE-Best-Of.jpg',
+      image: 'Iron-Miden-FFE-Best-Of.jpg',
       genre: genres[0]._id,
       price: 49.99,
       quantity: 5
