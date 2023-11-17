@@ -3,6 +3,7 @@ import { gql } from '@apollo/client';
 export const QUERY_PRODUCTS = gql`
   query Products {
   products {
+    _id
     image
     title
     artist

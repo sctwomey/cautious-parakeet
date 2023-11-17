@@ -6,8 +6,9 @@ export function pluralize(title, count) {
 }
 
 export function idbPromise(storeName, method, object) {
+  console.log('Object: ', object);
   return new Promise((resolve, reject) => {
-    const request = window.indexedDB.open('shop-shop', 1);
+    const request = window.indexedDB.open('retro-shop', 1);
     let db, tx, store;
     request.onupgradeneeded = function (e) {
       const db = request.result;
@@ -24,6 +25,7 @@ export function idbPromise(storeName, method, object) {
       db = request.result;
       tx = db.transaction(storeName, 'readwrite');
       store = tx.objectStore(storeName);
+      console.log('Store: ', store);
 
       db.onerror = function (e) {
         console.log('error', e);
