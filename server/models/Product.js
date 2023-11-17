@@ -25,7 +25,7 @@ const productSchema = new Schema({
     default: 0
   },
   description: {
-    type: Text
+    type: String
   },
   genre: {
     type: Schema.Types.ObjectId,

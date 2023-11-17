@@ -11,7 +11,7 @@ const typeDefs = `
     image: String
     quantity: Int
     price: Float
-    description: Text
+    description: String
     genre: Genre
   }
 
