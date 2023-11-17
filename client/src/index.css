@@ -1,8 +1,8 @@
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
+  --primary: rgb(61, 36, 36);
+  --secondary: #E09963;
   --tertiary: #5f0d0d;
-  --light: #fafafa;
+  --light: #ffffff;
   --dark: #272f32;
   --link-color: #e4e4e4;
   --error: rgb(228, 46, 1);
@@ -213,12 +213,16 @@ input:focus {
 }
 
 /* This is for the contact form styling, */
+.container {
+  min-height: calc(53vh);
+}
+
 .contact-me-h2 {
   font-weight: bold;
   margin-bottom: 50px;
   text-align: center;
   color: white;
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
   width: 100%;
   padding: 10px;
   margin-top: 0;
@@ -263,7 +267,8 @@ input:focus {
 .btn-submit {
   padding: 5px;
   width: 40%;
-  color: var(--primary);
+  color: var(--light);
+  background-color: var(--secondary);
   font-size: 1.10rem;
   border-radius: 10px;
   border: none;
@@ -297,7 +302,8 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) for transparency */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust the alpha (last value) for transparency */
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -311,7 +317,8 @@ input:focus {
   color: #fff;
   padding: 30px 60px;
   font-size: 35px;
-  border: 1px solid #fff; /* Add a border for visibility */
+  border: 1px solid #fff;
+  /* Add a border for visibility */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -324,7 +331,7 @@ input:focus {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(61, 36, 36);
+  background-color: var(--primary);
   color: #fff;
   padding: 30px;
 }
@@ -361,6 +368,7 @@ footer {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 30px;
 }
+
 .g2k2 {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 45px;

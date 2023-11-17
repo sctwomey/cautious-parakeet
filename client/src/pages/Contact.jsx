@@ -70,7 +70,7 @@ const Contact = () => {
               />
             </div>
             <div className='d-flex justify-content-center'>
-              <button className="btn btn-submit btn-warning" type="submit">Submit</button>
+              <button className="btn btn-submit" type="submit">Submit</button>
             </div>
           </form>
         </div>
