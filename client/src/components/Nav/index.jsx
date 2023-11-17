@@ -21,16 +21,16 @@ function Nav() {
             </a>
           </li>
           <li className="mx-1">
-          <input className="search-bar" type="text" placeholder="Search.."></input>
+            <input className="search-bar" type="text" placeholder="Search.."></input>
           </li>
           <li className="mx-1">
-          <a href="/Shop">Vinyls</a>
+            <a href="/Shop">Shop</a>
           </li>
           <li className="mx-1">
-          <a href="">About</a>
+            <a href="/About">About</a>
           </li>
           <li className="mx-1">
-          <a href="/Contact">Contact</a>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
       );
@@ -48,10 +48,10 @@ function Nav() {
             </Link>
           </li>
           <li className="mx-1">
-          <a href="">About</a>
+            <a href="">About</a>
           </li>
           <li className="mx-1">
-          <a href="/Contact">Contact</a>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
       );

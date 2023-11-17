@@ -840,14 +840,6 @@ db.once('open', async () => {
       quantity: 15
     },
     {
-      title: 'Live at the Apollo',
-      artist: 'Run DMC',
-      image: 'Live-at-the-Apollo.jpg',
-      genre: genres[2]._id,
-      price: 25.99,
-      quantity: 2
-    },
-    {
       title: 'Reachin (a new refutation of time and space)',
       artist: 'Digable Planets',
       image: 'Reachin.jpg',
@@ -855,6 +847,23 @@ db.once('open', async () => {
       price: 27.99,
       quantity: 8
     },
+    {
+      title: 'Operation Doomsday',
+      artist: 'MF Doom',
+      image: 'Operation-Doomsday.jpeg',
+      genre: genres[2]._id,
+      price: 44.99,
+      quantity: 4
+    },
+    {
+      title: 'Live at the Apollo',
+      artist: 'Run DMC',
+      image: 'Live-at-the-Apollo.jpg',
+      genre: genres[2]._id,
+      price: 25.99,
+      quantity: 2
+    },
+
     {
       title: 'Blowout Comb',
       artist: 'Digable Planets',
@@ -871,14 +880,7 @@ db.once('open', async () => {
       price: 49.99,
       quantity: 2
     },
-    {
-      title: 'Operation Doomsday',
-      artist: 'MF Doom',
-      image: 'Operation-Doomsday.jpeg',
-      genre: genres[2]._id,
-      price: 44.99,
-      quantity: 4
-    },
+
   ]);
 
   console.log('products seeded');

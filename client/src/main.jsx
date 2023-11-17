@@ -6,6 +6,7 @@ import './index.css';
 import App from './App.jsx';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
+import About from './pages/About'
 import Contact from './pages/Contact';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
@@ -41,6 +42,9 @@ const router = createBrowserRouter([
       }, {
         path: '/shop',
         element: <Shop />
+      }, {
+        path: '/about',
+        element: <About />
       }, {
         path: '/contact',
         element: <Contact />

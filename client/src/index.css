@@ -84,11 +84,16 @@ a:hover {
 
 header {
   background: rgb(61, 36, 36);
+  align-items: baseline;
 }
 
 header a {
   color: var(--light);
   font-size: 20px;
+}
+
+header ul {
+  list-style-type: none;
 }
 
 button {
@@ -117,8 +122,13 @@ img {
 }
 
 .img-details {
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 350px;
+}
+
+.img-product-item {
+  min-width: 284px;
+  min-height: 284px;
 }
 
 span[role="img"] {
@@ -178,6 +188,10 @@ input:focus {
   margin-bottom: var(--spacing-one);
 }
 
+.details-container {
+  height: calc(88vh);
+}
+
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
@@ -205,19 +219,38 @@ input:focus {
 
 .card {
   width: 25%;
+  /* height: 20%; */
   text-align: center;
+  justify-content: center;
 }
 
 .error-text {
   color: var(--error);
 }
 
-/* This is for the contact form styling, */
-.container {
-  min-height: calc(53vh);
+/* This is for the about page styling, */
+.about-retro-h2 {
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  background-color: var(--secondary);
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+  height: 70px;
 }
 
-.contact-me-h2 {
+.about-container {
+  min-height: calc(52.1vh);
+}
+
+/* This is for the contact form styling, */
+.contact-container {
+  min-height: calc(52.1vh);
+}
+
+.contact-retro-h2 {
   font-weight: bold;
   margin-bottom: 50px;
   text-align: center;

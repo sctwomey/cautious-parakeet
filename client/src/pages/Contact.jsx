@@ -36,8 +36,8 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className='contact-me-h2'>Contact Me</h2>
-      <div className="container">
+      <h2 className='contact-retro-h2'>Contact Retro Rewind</h2>
+      <div className="container contact-container">
         <div className='row justify-content-center'>
           <form className="col-8" onSubmit={handleSubmit}>
             <div className="form-group">
