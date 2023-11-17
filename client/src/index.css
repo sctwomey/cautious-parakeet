@@ -114,6 +114,11 @@ img {
   max-width: 100%;
 }
 
+.img-details {
+  height: 500px;
+  width: 500px;
+}
+
 span[role="img"] {
   cursor: default;
 }
