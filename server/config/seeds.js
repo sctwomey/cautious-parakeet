@@ -48,9 +48,9 @@ db.once('open', async () => {
       20 Bring Your Daughter... to the Slaughter 4:42
       21 Afraid to Shoot Strangers 6:56
       22 Dance of Death 8:36
-      23 When the Wild Wind Blows [Album Version] 10:59
+      23 When the Wild Wind Blows [Album Version] 10:59.
       
-      _________________
+
       
       Triple vinyl picture disc LP presing. 2011 collection from the Heavy Metal heroes containing their finest recordings from 1990-2010. From Fear to Eternity is a chance for new fans to explore the group's rich history, with the highlights of their last eight studio albums distilled into this handy collection, which follows 2009's Somewhere Back in Time compilation of their earlier work from 1980-1990. Perennial favorites found on this album include songs also featured on Maiden's current the Final Frontier World Tour set list; tracks such as "Fear of the Dark," "The Wicker Man," "Blood Brothers" and "Dance of Death" sit alongside recent classics "El Dorado" and the hauntingly evocative "When the Wild Wind Blows." It also includes singles like "Holy Smoke" and "Be Quick Or Be Dead" together with more progressive thought-provoking album tracks like "Afraid to Shoot Strangers" and "For the Greater Good of God."`,
       genre: genres[0]._id,
@@ -338,7 +338,7 @@ db.once('open', async () => {
     {
       title: 'Ill Communication',
       artist: 'Beastie Boys',
-      image: 'ill.jpeg',
+      image: 'ill.jpg',
       description: `Track Listings
       Disc: 1
       1	Sure Shot
@@ -434,6 +434,7 @@ db.once('open', async () => {
       title: 'Malibu',
       artist: 'Anderson .Paak',
       image: 'Malibu.jpeg',
+      description: `TracksCredits 1 The Bird 2 Heart Don't Stand a Chance 3 The Waters (Feat. BJ the Chicago Kid) 4 The Season / Carry Me 5 Put Me Thru 6 Am I Wrong (Feat. Schoolboy Q) 7 Without You (Feat. Rapsody) 8 Parking Lot 9 Lite Weight (Feat. the Free Nationals United Fellowship Choir) 10 Room in Here (Feat. the Game & Sonyae Elise) 11 Water Fall (Interlude) 12 Your Prime 13 Come Down 14 Silicon Valley 15 Celebrate 16 The Dreamer (Feat. Talib Kweli & Timan Family Choir)`,
       genre: genres[2]._id,
       price: 31.99,
       quantity: 3
@@ -442,6 +443,7 @@ db.once('open', async () => {
       title: 'The Best Of Sinatra',
       artist: 'Frank Sinatra',
       image: 'Best-Of-Sinatra.jpg',
+      description: `THE BEST OF SINATRA (180G BLUE VINYL LP) Artist: FRANK SINATRA Format: LP Bar-code: 5060348583400 Cat No: NOTLP340£9.99 Between 1955 and 1961 Sinatra recorded a string of hit albums for Capitol Records, collaborating with conductor and arranger Nelson Riddle and covering songs that were just superb. Though he’d produce numerous great records later on, it’s Sinatra’s Capitol years that people most associate with him, and which are generally conceded to contain his best work. This collection of wonderful recordings features; I’ve Got You Under My Skin, Just One Of Those Things, I Get A Kick Out Of You and Night And Day – all classics penned by Cole Porter. Come Fly With Me, (Love Is) The Tender Trap and Love And Marriage – written by Van Heusen & Cahn. Nice Work If You Can Get It – by George & Ira Gershwin. Plus, Nice ‘n’ Easy, Young At Heart, You Make Me Feel So Young, Witchcraft, Three Coins in the Fountain and The Lady Is A Tramp. THE BEST OF SINATRA (180G BLUE VINYL LP) quantity Add to basket SKU: NOTLP340 Categories: 12" LPs, Blue Vinyl, Easy, Frank Sinatra, Jazz, Not Now Music SIDE ONE 1. Come Fly With Me 2. I’ve Got You Under My Skin 3. Just One Of Those Things 4. (Love Is) The Tender Trap 5. Nice ‘n’ Easy 6. Young At Heart 7. Love And Marriage SIDE TWO 1. I Get A Kick Out Of You 2. You Make Me Feel So Young 3. Night And Day 4. Nice Work If You Can Get It 5. Witchcraft 6. Three Coins in the Fountain 7. The Lady Is A Tramp`,
       genre: genres[3]._id,
       price: 24.99,
       quantity: 10
