@@ -8,6 +8,7 @@ export const QUERY_PRODUCTS = gql`
     artist
     price
     quantity
+    description
     genre {
       _id
     }
