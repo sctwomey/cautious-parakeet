@@ -213,15 +213,23 @@ input:focus {
 }
 
 /* This is for the contact form styling, */
-.contact-form {
-  justify-content: center;
+.contact-me-h2 {
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  background-color: var(--tertiary);
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+  height: 70px;
 }
 
 .form-group {
   display: flex;
   flex-wrap: wrap;
   flex: 100%;
-  max-width: 800px;
+  min-width: 750px;
 }
 
 .form-group div {
@@ -252,12 +260,10 @@ input:focus {
   padding-top: 100px;
 }
 
-.form-group button {
-  flex: 0 50%;
-  padding: 10px;
-  margin: 0 auto;
-  align-items: center;
-  color: #FFF;
+.btn-submit {
+  padding: 5px;
+  width: 40%;
+  color: var(--primary);
   font-size: 1.10rem;
   border-radius: 10px;
   border: none;

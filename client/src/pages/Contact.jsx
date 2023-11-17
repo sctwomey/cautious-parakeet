@@ -36,10 +36,10 @@ const Contact = () => {
 
   return (
     <>
+      <h2 className='contact-me-h2'>Contact Me</h2>
       <div className="container">
-        <h2>Contact Me</h2>
-        <div className='row contact-form'>
-          <form onSubmit={handleSubmit}>
+        <div className='row justify-content-center'>
+          <form className="col-8" onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">Name:</label>
               <input
@@ -69,7 +69,9 @@ const Contact = () => {
                 onChange={handleChange}
               />
             </div>
-            <button type="submit">Submit</button>
+            <div className='d-flex justify-content-center'>
+              <button className="btn btn-submit btn-warning" type="submit">Submit</button>
+            </div>
           </form>
         </div>
       </div>
