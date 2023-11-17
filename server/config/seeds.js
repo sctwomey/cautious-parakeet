@@ -24,6 +24,35 @@ db.once('open', async () => {
       title: 'From Fear to Eternity',
       artist:'Iron Maiden',
       image: 'Maiden.jpg',
+      description: `Track Listing:
+
+      1 The Wicker Man 4:35
+      2 Holy Smoke 3:48
+      3 El Dorado [Album Version] 6:49
+      4 Paschendale 8:28
+      5 Different World [Album Version] 4:17
+      6 Man on the Edge [Live] 4:28
+      7 The Reincarnation of Benjamin.Breeg [Album Version] 7:21
+      8 Blood Brothers 7:14
+      9 Rainmaker 3:48
+      10 Sign of the Cross [Live] 10:50
+      11 Brave New World 6:18
+      12 Fear of the Dark [Live] 7:50
+      13 Be Quick or Be Dead 3:24
+      14 Tailgunner 4:13
+      15 No More Lies 7:21
+      16 Coming Home [Album Version] 5:52
+      17 The Clansman [Live] 9:33
+      18 For the Greater Good of God [Album Version] 9:24
+      19 These Colours Don't Run [Album Version] 6:52
+      20 Bring Your Daughter... to the Slaughter 4:42
+      21 Afraid to Shoot Strangers 6:56
+      22 Dance of Death 8:36
+      23 When the Wild Wind Blows [Album Version] 10:59
+      
+      _________________
+      
+      Triple vinyl picture disc LP presing. 2011 collection from the Heavy Metal heroes containing their finest recordings from 1990-2010. From Fear to Eternity is a chance for new fans to explore the group's rich history, with the highlights of their last eight studio albums distilled into this handy collection, which follows 2009's Somewhere Back in Time compilation of their earlier work from 1980-1990. Perennial favorites found on this album include songs also featured on Maiden's current the Final Frontier World Tour set list; tracks such as "Fear of the Dark," "The Wicker Man," "Blood Brothers" and "Dance of Death" sit alongside recent classics "El Dorado" and the hauntingly evocative "When the Wild Wind Blows." It also includes singles like "Holy Smoke" and "Be Quick Or Be Dead" together with more progressive thought-provoking album tracks like "Afraid to Shoot Strangers" and "For the Greater Good of God."`,
       genre: genres[0]._id,
       price: 49.99,
       quantity: 5
@@ -40,6 +69,30 @@ db.once('open', async () => {
       title: 'Master of Puppets',
       artist:'Metallica',
       image: 'Metallica-Master.jpg',
+      description: `Side A
+
+      1.Blackened
+      
+      2.Welcome Home (Sanitarium)
+      
+      3.Leper Messiah
+      
+      4.Harvester Of Sorrow
+      
+       
+      
+      Side B
+      
+      1.For Whom The Bell Tolls
+      
+      2.Eye Of The Beholder
+      
+      3.To Live Is To Die
+      
+      4.Master Of Puppets
+      
+      5.One
+      Live from the Dallas Arena.`,
       genre: genres[0]._id,
       price: 24.99,
       quantity: 11
@@ -48,7 +101,20 @@ db.once('open', async () => {
       title: 'The Now Now',
       artist:'Gorillaz',
       image: 'Gorillaz-The-Now-Now.jpg',
-      genre: genres[1]._id,
+      description: `1. Humility (feat. George Benson)
+      2. Tranz
+      3. Hollywood (feat. Snoop Dogg & Jamie Principle)
+      4. Kansas
+      5. Sorcererz
+      6. Idaho
+      7. Lake Zurich
+      8. Magic City
+      9. Fire Flies
+      10. One Percent
+      11. Souk Eye
+      
+      Gorillaz' sixth studio album is The Now Now, from Warner Bros. Records. The album was produced by Simian Mobile Disco's James Ford, who most recently worked with Arctic Monkeys on Tranquility Base Hotel & Casino. Unlike its guest-heavy predecessor, last year's Humanz, The Now Now features only three additional contributors: George Benson, Jamie Principle, and Snoop Dogg, the latter two guesting on "Hollywood." Recording took place at London's Studio 13 in February.`,
+      genre: genres[2]._id,
       price: 25.99,
       quantity: 5
     },
@@ -56,7 +122,27 @@ db.once('open', async () => {
       title: 'G-Sides',
       artist:'Gorillaz',
       image: 'Gorillaz-Gsides.jpeg',
-      genre: genres[1]._id,
+      description: `Originally released on CD in Japan 2001, and in 2002 in Europe and the U.S., this is the first time the album is available on vinyl. The album is a collection of 10 B-sides and remixes from their debut album, Gorillaz, and the Tomorrow Comes Today EP. The audio has been remastered and is pressed on 180-gram vinyl.
+
+      As the ultimate experiment in manufactured image, the Gorillaz are a virtual cartoon-character-based hip-hop band who bring together witty, silly lyrics and talented musicians.
+      
+      
+      
+      Side A
+      1. 19-2000 (Soulchild Remix)
+      2. Dracula
+      3. Rock the House (Radio Edit)
+      4. The Sounder (Edit)
+      5. Faust
+      
+      Side B
+      1. Clint Eastwood (Phi Life Cypher Version)
+      2. Ghost Train
+      3. Hip Albatross
+      4. Left Hand Suzuki Method
+      5. 12D3
+      `,
+      genre: genres[2]._id,
       price: 27.99,
       quantity: 5
     },
@@ -64,7 +150,29 @@ db.once('open', async () => {
       title: 'Demon Days',
       artist:'Gorillaz',
       image: 'Demon-Days-Gorillaz.jpeg',
-      genre: genres[1]._id,
+      description: `Track Listings
+      Disc: 1
+      1	Intro
+      2	Last Living Souls
+      3	Kids with Guns
+      4	O Green World
+      Disc: 2
+      1	Dirty Harry
+      2	Feel Good Inc.
+      3	El Mañana
+      Disc: 3
+      1	Every Planet We Reach Is Dead
+      2	November Has Come
+      3	All Alone
+      4	White Light
+      Disc: 4
+      1	DARE
+      2	Fire Coming out of the Monkey's Head
+      3	Don't Get Lost in Heaven
+      4	Demon Days
+      Editorial Reviews
+      Demon Days is the second studio album by Gorillaz. The album features the hit singles "Feel Good Inc.", "DARE", "Kids With Guns", and "El Mañana", with contributions from de la Soul, Neneh Cherry, Martina Topley-Bird, Roots Manuva, MF DOOM, Ike Turner, Bootie Brown of the Pharcyde, Shaun Ryder, Dennis Hopper, the London Community Gospel Choir, and the Children's Choir of San Fernandez.`,
+      genre: genres[2]._id,
       price: 39.99,
       quantity: 17
     },
@@ -72,7 +180,26 @@ db.once('open', async () => {
       title: 'Gorillaz',
       artist:'Gorillaz',
       image: 'Gorillaz.jpg',
-      genre: genres[1]._id,
+      description: `1. Re-Hash
+      2. 5/4
+      3. Tomorrow Comes Today
+      4. New Genius (Brother)
+      5. Clint Eastwood
+      6. Man Research (Clapper)
+      7. Punk
+      8. Sound Check (Gravity)
+      9. Double Bass
+      10. Rock The House
+      11. 19-2000
+      12. Latin Simone
+      13. Starshine
+      14. Slow Country
+      15. M1 A1
+      16. Clint Eastwood
+      
+      
+      The Gorillaz claim to have found their motley crew of cartoon characters sleeping in Leicester Square, but Blur's Damon Albarn (a.k.a. 2-D) and cult cartoonist Jamie Hewlett (Murdoc) aren't fooling anyone. As the ultimate experiment in manufactured image, the Gorillaz are a virtual cartoon-character-based hip-hop band who bring together witty, silly lyrics and talented musicians.`,
+      genre: genres[2]._id,
       price: 24.99,
       quantity: 15
     },
