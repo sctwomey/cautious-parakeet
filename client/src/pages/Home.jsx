@@ -6,6 +6,7 @@ import ImageCard from '../components/ImageCard';
 import ImageCard2 from '../components/ImageCard2';
 
 
+
 const Home = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const Home = () => {
           {/* <Cart /> */}
     </div>
     <ImageCard2 />
+
     </div>
   );
 };
