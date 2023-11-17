@@ -1,7 +1,7 @@
 :root {
   --primary: #232F3E;
   --secondary: #F3A847;
-  --tertiary: #B12704;
+  --tertiary: #5f0d0d;
   --light: #fafafa;
   --dark: #272f32;
   --link-color: #e4e4e4;
@@ -314,3 +314,48 @@ input:focus {
   background-color: #3498db; 
 } 
 */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(61, 36, 36);
+  color: #fff;
+  padding: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h4 {
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column hr {
+  border: 0;
+  border-top: 1px solid #fff;
+  margin: 10px 0;
+}
+
+.footer-link a {
+  color: white;
+}
+
+.g2k {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+}
+.g2k2 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 45px;
+}
