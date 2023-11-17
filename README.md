@@ -41,9 +41,8 @@ This E-commerce application will allow a user to find vinyl records by various s
 ## Authors
 
 * Zachary Mcdowell
-* Kelly Ramirez
-* Andrew Walsh
 * Stephen Twomey
+* Andrew Walsh
 
 ## License
 
