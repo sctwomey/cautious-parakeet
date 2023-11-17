@@ -22,7 +22,7 @@ db.once('open', async () => {
   const products = await Product.insertMany([
     {
       title: 'From Fear to Eternity',
-      artist:'Iron Maiden',
+      artist: 'Iron Maiden',
       image: 'Maiden.jpg',
       description: `Track Listing:
 
@@ -59,16 +59,8 @@ db.once('open', async () => {
     },
     {
       title: 'Blackened',
-      artist:'Metallica',
+      artist: 'Metallica',
       image: 'Metallica-Blackened.jpg',
-      genre: genres[0]._id,
-      price: 24.99,
-      quantity: 10
-    },
-    {
-      title: 'Master of Puppets',
-      artist:'Metallica',
-      image: 'Metallica-Master.jpg',
       description: `Side A
 
       1.Blackened
@@ -95,11 +87,21 @@ db.once('open', async () => {
       Live from the Dallas Arena.`,
       genre: genres[0]._id,
       price: 24.99,
+      quantity: 10
+    },
+    {
+      title: 'Master of Puppets',
+      artist: 'Metallica',
+      image: 'Metallica-Master.jpg',
+      description: `Tracks
+      1.1 Battery 1.2 Master of Puppets 1.3 The Thing That Should Not Be 1.4 Welcome Home (Sanitarium) 2.1 Disposable Heroes 2.2 Leper Messiah 2.3 Orion 2.4 Damage, Inc. Vinyl LP pressing. Digitally remastered edition. Master of Puppets was originally released on March 3rd, 1986, on Elektra Records and went on to become the first Metallica album to be certified Platinum by the RIAA. The album has been certified six-times Platinum in the United States and has sold over 10 million copies worldwide. In 2016, the album became the first metal album to be added to the National Recording Registry of the Library of Congress, an honor granted to works deemed "culturally, historically, or aesthetically significant". Recorded at the Sweet Silence Studios with producer Flemming Rasmussen, it was their third album overall. Master of Puppets was the band's last album to feature bassist Cliff Burton, who died in a bus accident in Sweden during the album's promotional tour.`,
+      genre: genres[0]._id,
+      price: 24.99,
       quantity: 11
     },
     {
       title: 'The Now Now',
-      artist:'Gorillaz',
+      artist: 'Gorillaz',
       image: 'Gorillaz-The-Now-Now.jpg',
       description: `1. Humility (feat. George Benson)
       2. Tranz
@@ -120,8 +122,8 @@ db.once('open', async () => {
     },
     {
       title: 'G-Sides',
-      artist:'Gorillaz',
-      image: 'Gorillaz-Gsides.jpeg',
+      artist: 'Gorillaz',
+      image: 'gsides.jpeg',
       description: `Originally released on CD in Japan 2001, and in 2002 in Europe and the U.S., this is the first time the album is available on vinyl. The album is a collection of 10 B-sides and remixes from their debut album, Gorillaz, and the Tomorrow Comes Today EP. The audio has been remastered and is pressed on 180-gram vinyl.
 
       As the ultimate experiment in manufactured image, the Gorillaz are a virtual cartoon-character-based hip-hop band who bring together witty, silly lyrics and talented musicians.
@@ -148,7 +150,7 @@ db.once('open', async () => {
     },
     {
       title: 'Demon Days',
-      artist:'Gorillaz',
+      artist: 'Gorillaz',
       image: 'Demon-Days-Gorillaz.jpeg',
       description: `Track Listings
       Disc: 1
@@ -178,7 +180,7 @@ db.once('open', async () => {
     },
     {
       title: 'Gorillaz',
-      artist:'Gorillaz',
+      artist: 'Gorillaz',
       image: 'Gorillaz.jpg',
       description: `1. Re-Hash
       2. 5/4
@@ -205,7 +207,7 @@ db.once('open', async () => {
     },
     {
       title: 'Choose Your Weapon',
-      artist:'Hiatus Kaiyote',
+      artist: 'Hiatus Kaiyote',
       image: 'CYW-Hiatus.jpeg',
       description: `Track Listings
       Disc: 1
@@ -240,7 +242,7 @@ db.once('open', async () => {
     },
     {
       title: 'Tawk Tomahawk',
-      artist:'Hiatus Kaiyote',
+      artist: 'Hiatus Kaiyote',
       image: 'Tomahawk-Hiatus.jpeg',
       description: `Side A
       A1. Mobius Streak
@@ -267,7 +269,7 @@ db.once('open', async () => {
     },
     {
       title: 'Rumours',
-      artist:'Fleetwood Mac',
+      artist: 'Fleetwood Mac',
       image: 'Rumours-Fleetwood.jpeg',
       description: `A1Second Hand News Written-By – Lindsey Buckingham 4:43 A2Dreams Written-By – Stevie Nicks 4:14 A3Never Going Back Again Written-By – Lindsey Buckingham 2:02 A4Don't Stop Written-By – Christine McVie 3:11 A5Go Your Own Way Written-By – Lindsey Buckingham 3:38 A6Songbird Written-By – Christine McVie 3:20 B1The Chain Written-By – C. McVie*, J. McVie*, L. Buckingham*, M. Fleetwood*, S. Nicks* 4:28 B2You Make Loving Fun Written-By – Christine McVie 3:31 B3I Don't Want To Know Written-By – Stevie Nicks 3:11 B4Oh Daddy Written-By – Christine McVie 3:54 B5Gold Dust Woman Written-By – Stevie Nicks 4:51`,
       genre: genres[1]._id,
@@ -276,7 +278,7 @@ db.once('open', async () => {
     },
     {
       title: 'Mm Food',
-      artist:'MF Doom',
+      artist: 'MF Doom',
       image: 'Mf-Doom-Mm-food.jpg',
       description: `MM..Food - Exclusive Limited Edition Pink & Green Colored 2x Vinyl LP
 
@@ -302,7 +304,7 @@ db.once('open', async () => {
     },
     {
       title: 'Dream in Colour',
-      artist:'Franc Moody',
+      artist: 'Franc Moody',
       image: 'Franc-Moody-Dream-in-Colour.png',
       description: `Track Listings
       1	Dream In Colour
@@ -326,31 +328,111 @@ db.once('open', async () => {
     },
     {
       title: 'Hello Nasty',
-      artist:'Beastie Boys',
+      artist: 'Beastie Boys',
       image: 'Beastie-Boys-Hello-Nasty.png',
+      description: `1.1 Super Disco Breakin' 1.2 The Move 1.3 Remote Control 1.4 Song for the Man 1.5 Just a Test 1.6 Body Movin' 1.7 Intergalactic 1.8 Sneakin' Out the Hospital 1.9 Putting Shame in Your Game 1.10 Flowin' Prose 1.11 And Me 1.12 Three MC's and One DJ 2.1 The Grasshopper Unit (Keep Movin') 2.2 Song for Junior 2.3 I Don't Know 2.4 The Negotiation Limerick File 2.5 Electrify 2.6 Picture This 2.7 Unite 2.8 Dedication 2.9 Dr. Lee, PHD 2.10 Instant Death. A startlingly diverse effort, the Beasties' fifth LP saw the welcome addition of a new DJ, the abundantly skilled Mix Master Mike of the Invizibl Skratch Picklz. A quirky but effective combination of old school fundamentals ("Three MC's and One DJ") and futuristic trickery ("Intergalactic"), this album successfully conveys their energy, originality, and spark. This 2 LP set is pressed on 180 gram vinyl.`,
+      genre: genres[2]._id,
+      price: 24.99,
+      quantity: 5
+    },
+    {
+      title: 'Ill Communication',
+      artist: 'Beastie Boys',
+      image: 'ill.jpeg',
+      description: `Track Listings
+      Disc: 1
+      1	Sure Shot
+      2	Tough Guy
+      3	B-Boys Makin' with the Freak Freak
+      4	Bobo on the Corner
+      5	Root Down
+      6	Sabotage
+      7	Get It Together
+      8	Sabrosa
+      9	Update
+      10	Futterman's Rule
+      Disc: 2
+      1	Alright Hear This
+      2	Eugene's Lament
+      3	Flute Loop
+      4	Do It
+      5	Ricky's Theme
+      6	Heart Attack Man
+      7	Scoop
+      8	Shambala
+      9	Bodhisattva Vow
+      10	Transitions
+
+
+      Editorial Reviews
+      Remastered for the first time, and oversean by the band, the Beastie Boy's Ill Communication makes it's return to the vinyl format. It comes as a 180 gram double gatefold 2 LP set. The second disc comes with 12 tracks, one which is previously unreleased, 3 remixes and one live track.`,
       genre: genres[2]._id,
       price: 24.99,
       quantity: 5
     },
     {
       title: 'Solid Gold Hits',
-      artist:'Beastie Boys',
+      artist: 'Beastie Boys',
       image: 'Beastie-Boys-Solid-Gold.jpg',
+      description: `Track Listings
+      1	So What'cha Want
+      2	Brass Monkey
+      3	Ch-Check It Out
+      4	No Sleep Till Brooklyn
+      5	Hey Ladies
+      6	Pass the Mic
+      7	Open Letter to NYC
+      8	Root Down
+      9	Shake Your Rump
+      10	Intergalactic
+      11	Sure Shot
+      12	Body Movin' [Mix]
+      13	Triple Trouble
+      14	Sabotage
+      15	Fight for Your Right
+      16	[CD-ROM Track] [Multimedia]
+
+      Editorial Reviews
+      2005 double vinyl LP compilation. Check it. The Beastie Boys fight for their right to party on 15 of their biggest hits. Spanning their career from rap to rock and other musical nuggets, this vinyl record set features only their best loved hits such as "Fight for Your Right," "Brass Monkey," "So What'cha Want," "Hey Ladies," "Shake Your Rump," "Intergalactic," "Sure Shot" and more! Innovators of rap and a party staple for Generation X, The Beastie Boys will be sure to shake your rump. They sound even better now that they are on vinyl once again. Capitol.
+      
+      `,
       genre: genres[2]._id,
       price: 35.99,
       quantity: 12
     },
     {
       title: 'Equal Strain On All Parts',
-      artist:'Jimmy Buffett',
+      artist: 'Jimmy Buffett',
       image: 'Jimmy-Buffett.jpg',
+      description: `Side A
+      1. University of Bourbon Street (feat. Preservation Hall Jazz Band)
+      2. Bubbles Up
+      3. Audience of One
+      Side B
+      1. My Gummie Just Kicked In
+      2. Close Calls
+      3. Equal Strain On All Parts
+      4. Like My Dog
+      Side C
+      1. Ti Punch Café (feat. Angelique Kidjo)
+      2. Portugul or PEI (feat. Lennie Gallant, Will Kimbrough)
+      3. Nobody Works On Friday
+      4. Fish Porn
+      Side D
+      1. Johnny's Rhum
+      2. Columbus
+      3. Mozambique (feat. Emmylou Harris)
+      
+      Wouldn't you know it. He had one more ship in the harbor left to sail. And long-time fans of Jimmy Buffett can raise their glasses to toast his send-off.
+
+      The album Buffett completed before the "Margaritaville" singer's death on Sept. 1, 2023 will be released on the Sun label November 3, with three songs "Bubbles Up," "My Gummie Just Kicked In" and "Like My Dog" dropping ahead of the debut of the album — Equal Strain on All Parts. Among its 14 songs are collaborations with Paul McCartney, Emmylou Harris, Angelique Kidjo and the Preservation Hall Jazz Band.`,
       genre: genres[5]._id,
       price: 29.99,
       quantity: 5
     },
     {
       title: 'Malibu',
-      artist:'Anderson .Paak',
+      artist: 'Anderson .Paak',
       image: 'Malibu.jpeg',
       genre: genres[2]._id,
       price: 31.99,
@@ -358,7 +440,7 @@ db.once('open', async () => {
     },
     {
       title: 'The Best Of Sinatra',
-      artist:'Frank Sinatra',
+      artist: 'Frank Sinatra',
       image: 'Best-Of-Sinatra.jpg',
       genre: genres[3]._id,
       price: 24.99,
@@ -366,7 +448,7 @@ db.once('open', async () => {
     },
     {
       title: 'Nice N Easy',
-      artist:'Frank Sinatra',
+      artist: 'Frank Sinatra',
       image: 'Nice-n-Easy.jpg',
       genre: genres[3]._id,
       price: 24.99,
@@ -374,7 +456,7 @@ db.once('open', async () => {
     },
     {
       title: 'The Very Best of the Rat Pack',
-      artist:'The Rat Pack',
+      artist: 'The Rat Pack',
       image: 'Rat.jpeg',
       genre: genres[3]._id,
       price: 24.99,
@@ -382,7 +464,7 @@ db.once('open', async () => {
     },
     {
       title: 'Endless Summer',
-      artist:'The Midnight',
+      artist: 'The Midnight',
       image: 'Endless-Summer.jpg',
       genre: genres[6]._id,
       price: 34.99,
@@ -390,7 +472,7 @@ db.once('open', async () => {
     },
     {
       title: 'Days of Thunder',
-      artist:'The Midnight',
+      artist: 'The Midnight',
       image: 'Days-of-Thunder.jpg',
       genre: genres[6]._id,
       price: 32.99,
@@ -398,7 +480,7 @@ db.once('open', async () => {
     },
     {
       title: 'Dark All Day',
-      artist:'Gunship',
+      artist: 'Gunship',
       image: 'Dark-All-Day.jpeg',
       genre: genres[6]._id,
       price: 35.95,
@@ -406,7 +488,7 @@ db.once('open', async () => {
     },
     {
       title: 'GUNSHIP',
-      artist:'Gunship',
+      artist: 'Gunship',
       image: 'GUNSHIP.jpeg',
       genre: genres[6]._id,
       price: 31.99,
@@ -414,7 +496,7 @@ db.once('open', async () => {
     },
     {
       title: 'Black Blood Red Kiss',
-      artist:'Gunship',
+      artist: 'Gunship',
       image: 'Black-Blood-Red-Kiss.jpeg',
       genre: genres[6]._id,
       price: 25.99,
@@ -422,7 +504,7 @@ db.once('open', async () => {
     },
     {
       title: 'Fox On the Run',
-      artist:'The Sweet',
+      artist: 'The Sweet',
       image: 'Fox-on-the-Run.jpeg',
       genre: genres[1]._id,
       price: 24.99,
@@ -430,7 +512,7 @@ db.once('open', async () => {
     },
     {
       title: 'Cherry Bomb',
-      artist:'The Runaways',
+      artist: 'The Runaways',
       image: 'Cherry-Bomb.jpg',
       genre: genres[1]._id,
       price: 29.96,
@@ -438,7 +520,7 @@ db.once('open', async () => {
     },
     {
       title: 'Goodbye Yellow Brick Road',
-      artist:'Elton John',
+      artist: 'Elton John',
       image: 'Goodbye-Yellow-Brick-Road.jpg',
       genre: genres[1]._id,
       price: 34.99,
@@ -446,7 +528,7 @@ db.once('open', async () => {
     },
     {
       title: 'Elton John',
-      artist:'Elton John',
+      artist: 'Elton John',
       image: 'Elton-John.jpeg',
       genre: genres[1]._id,
       price: 27.99,
@@ -454,7 +536,7 @@ db.once('open', async () => {
     },
     {
       title: 'Reg Strike Back',
-      artist:'Elton',
+      artist: 'Elton',
       image: 'Reg-Strikes-Back.jpeg',
       genre: genres[1]._id,
       price: 24.97,
@@ -462,7 +544,7 @@ db.once('open', async () => {
     },
     {
       title: 'Aladdin Sane',
-      artist:'David Bowie',
+      artist: 'David Bowie',
       image: 'Aladdin-Sane.jpeg',
       genre: genres[1]._id,
       price: 24.99,
@@ -470,7 +552,7 @@ db.once('open', async () => {
     },
     {
       title: 'Space Oddity',
-      artist:'David Bowie',
+      artist: 'David Bowie',
       image: 'Space.jpg',
       genre: genres[1]._id,
       price: 29.99,
@@ -478,7 +560,7 @@ db.once('open', async () => {
     },
     {
       title: 'Low',
-      artist:'David Bowie',
+      artist: 'David Bowie',
       image: 'Low.jpg',
       genre: genres[1]._id,
       price: 29.99,
@@ -486,7 +568,7 @@ db.once('open', async () => {
     },
     {
       title: 'The Colour and the Shape',
-      artist:'Foo Fighters',
+      artist: 'Foo Fighters',
       image: 'The-Colour-and-the-Shape.jpg',
       genre: genres[1]._id,
       price: 29.99,
@@ -494,7 +576,7 @@ db.once('open', async () => {
     },
     {
       title: 'Medicine At Midnight',
-      artist:'Foo Fighters',
+      artist: 'Foo Fighters',
       image: 'Medicine-At-Midnight.jpg',
       genre: genres[1]._id,
       price: 24.99,
@@ -502,7 +584,7 @@ db.once('open', async () => {
     },
     {
       title: 'Pablo Honey',
-      artist:'Radiohead',
+      artist: 'Radiohead',
       image: 'Pablo-Honey.jpg',
       genre: genres[1]._id,
       price: 29.99,
@@ -510,7 +592,7 @@ db.once('open', async () => {
     },
     {
       title: 'Goat',
-      artist:'The Jesus Lizard',
+      artist: 'The Jesus Lizard',
       image: 'Goat.png',
       genre: genres[1]._id,
       price: 28.99,
@@ -518,7 +600,7 @@ db.once('open', async () => {
     },
     {
       title: 'Liar',
-      artist:'The Jesus Lizard',
+      artist: 'The Jesus Lizard',
       image: 'Liar.jpg',
       genre: genres[2]._id,
       price: 24.99,
@@ -526,7 +608,7 @@ db.once('open', async () => {
     },
     {
       title: 'Enter (36 Chambers)',
-      artist:'Wu-Tang Clan',
+      artist: 'Wu-Tang Clan',
       image: 'Enter.jpg',
       genre: genres[2]._id,
       price: 29.99,
@@ -534,7 +616,7 @@ db.once('open', async () => {
     },
     {
       title: 'Tougher Than Leather',
-      artist:'Run DMC',
+      artist: 'Run DMC',
       image: 'Tougher-Than-Leather.jpeg',
       genre: genres[2]._id,
       price: 31.99,
@@ -542,7 +624,7 @@ db.once('open', async () => {
     },
     {
       title: 'Live at the Apollo',
-      artist:'Run DMC',
+      artist: 'Run DMC',
       image: 'Live-at-the-Apollo.jpg',
       genre: genres[2]._id,
       price: 25.99,
@@ -550,7 +632,7 @@ db.once('open', async () => {
     },
     {
       title: 'Reachin (a new refutation of time and space)',
-      artist:'Digable Planets',
+      artist: 'Digable Planets',
       image: 'Reachin.jpg',
       genre: genres[2]._id,
       price: 27.99,
@@ -558,7 +640,7 @@ db.once('open', async () => {
     },
     {
       title: 'Blowout Comb',
-      artist:'Digable Planets',
+      artist: 'Digable Planets',
       image: 'Blowout-Comb.jpg',
       genre: genres[2]._id,
       price: 34.99,
@@ -566,7 +648,7 @@ db.once('open', async () => {
     },
     {
       title: 'Madvillain',
-      artist:'MF Doom',
+      artist: 'MF Doom',
       image: 'Madvillain.jpg',
       genre: genres[2]._id,
       price: 49.99,
@@ -574,7 +656,7 @@ db.once('open', async () => {
     },
     {
       title: 'Operation Doomsday',
-      artist:'MF Doom',
+      artist: 'MF Doom',
       image: 'Operation-Doomsday.jpeg',
       genre: genres[2]._id,
       price: 44.99,
