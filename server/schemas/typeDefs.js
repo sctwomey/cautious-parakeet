@@ -41,6 +41,7 @@ const typeDefs = `
     _id: ID
     purchaseQuantity: Int
     title: String
+    artist: String
     image: String
     price: Float
     quantity: Int
