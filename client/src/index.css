@@ -4,6 +4,7 @@
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #272f32;
+  --link-color: #e4e4e4;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -208,6 +209,58 @@ input:focus {
 
 .error-text {
   color: var(--error);
+}
+
+/* This is for the contact form styling, */
+.contact-form {
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 100%;
+  max-width: 800px;
+}
+
+.form-group div {
+  display: contents;
+}
+
+.form-group label {
+  flex: 100%;
+  font-size: 1.125rem;
+  color: var(--primary);
+}
+
+.form-group input {
+  height: 40px;
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 100%;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid var(--primary);
+}
+
+.form-group textarea {
+  padding-top: 100px;
+}
+
+.form-group button {
+  flex: 0 50%;
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+  color: #FFF;
+  font-size: 1.10rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
