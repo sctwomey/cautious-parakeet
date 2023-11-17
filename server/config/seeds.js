@@ -113,7 +113,7 @@ db.once('open', async () => {
       8. Magic City
       9. Fire Flies
       10. One Percent
-      11. Souk Eye
+      11. Souk Eye.
       
       Gorillaz' sixth studio album is The Now Now, from Warner Bros. Records. The album was produced by Simian Mobile Disco's James Ford, who most recently worked with Arctic Monkeys on Tranquility Base Hotel & Casino. Unlike its guest-heavy predecessor, last year's Humanz, The Now Now features only three additional contributors: George Benson, Jamie Principle, and Snoop Dogg, the latter two guesting on "Hollywood." Recording took place at London's Studio 13 in February.`,
       genre: genres[2]._id,
@@ -171,8 +171,8 @@ db.once('open', async () => {
       1	DARE
       2	Fire Coming out of the Monkey's Head
       3	Don't Get Lost in Heaven
-      4	Demon Days
-      Editorial Reviews
+      4	Demon Days.
+      
       Demon Days is the second studio album by Gorillaz. The album features the hit singles "Feel Good Inc.", "DARE", "Kids With Guns", and "El Mañana", with contributions from de la Soul, Neneh Cherry, Martina Topley-Bird, Roots Manuva, MF DOOM, Ike Turner, Bootie Brown of the Pharcyde, Shaun Ryder, Dennis Hopper, the London Community Gospel Choir, and the Children's Choir of San Fernandez.`,
       genre: genres[2]._id,
       price: 39.99,
@@ -197,7 +197,7 @@ db.once('open', async () => {
       13. Starshine
       14. Slow Country
       15. M1 A1
-      16. Clint Eastwood
+      16. Clint Eastwood.
       
       
       The Gorillaz claim to have found their motley crew of cartoon characters sleeping in Leicester Square, but Blur's Damon Albarn (a.k.a. 2-D) and cult cartoonist Jamie Hewlett (Murdoc) aren't fooling anyone. As the ultimate experiment in manufactured image, the Gorillaz are a virtual cartoon-character-based hip-hop band who bring together witty, silly lyrics and talented musicians.`,
@@ -231,10 +231,10 @@ db.once('open', async () => {
       1	The Lung
       2	Only Time All the Time: Making Friends with Studio Owl
       3	Molasses
-      4	Building a Ladder
+      4	Building a Ladder.
 
       
-      Editorial Reviews
+      
       Double vinyl LP pressing. Choose Your Weapon is the second studio album by Australian neo-soul quartet Hiatus Kaiyote, first released in 1 May 2015. Following the release of the band's debut album Tawk Tomahawk (2012) and their first Grammy nomination, Hiatus Kaiyote went on to tour throughout 2014. Over the span of two years, recording sessions took place in Australia and the United States.`,
       genre: genres[4]._id,
       price: 45.99,
@@ -260,7 +260,7 @@ db.once('open', async () => {
       
       Bonus 7”
       A1. Nakamarra feat. Q-Tip
-      B1. Boom Child (Clever Austin Remix)
+      B1. Boom Child (Clever Austin Remix).
       
       KALEIDESCOPIC AUSSIE BAND'S DEBUT ALBUM, WIDELY AVAILABLE ON VINYL FOR THE FIRST TIME EVER. Hiatus Kaiyote's 2012 full-length takes cues from jazz, soul, hip hop, funk + more and primed them for the breakthrough success they would later achieve with 2015's Choose Your Weapon. There's no shortage of impressive moments, with tracks like "Mobius Streak," "Leap Frog," "Sphynx Gate" and "Nakamarra" providing a wide range of undeniable grooves informed equally by broken beat, Los Angeles' beat scene (the album was destined to be reissued by Brainfeeder) and the dusty Australian desert they launched from. This expanded reissue includes a bonus 7-inch with a remix of "Nakamarra" featuring Q-Tip (!!) and a remix of "Boom Child" by Clever Austin.`,
       genre: genres[4]._id,
@@ -282,7 +282,7 @@ db.once('open', async () => {
       image: 'Mf-Doom-Mm-food.jpg',
       description: `MM..Food - Exclusive Limited Edition Pink & Green Colored 2x Vinyl LP
 
-      Tracklist
+      -Tracklist-
       A1 Beef Rapp 4:39
       A2 Hoe Cakes 3:54
       A3 Potholderz 3:20
@@ -317,10 +317,10 @@ db.once('open', async () => {
       8	Grin And Bear It
       9	Night Flight Reprise
       10	This Is A Mood
-      11	A Little Something For The Weekend
+      11	A Little Something For The Weekend.
 
       
-      Product description
+   
       Like a Franc Moody live show, Dream in Colour is a life-affirming experience. As a band who came up via the tight-knit warehouse rave scene of London, their performances are all about community and chaos. Each gig feels like a gigantic house party, packed with scenes of crowd surfing, mosh pits, mass sing-alongs and chants of "MOODY! MOODY!" This is where the band feel most at home and it informs one of the many themes running through their debut album, 'Dream in Colour': the experience of letting loose together. Dream in Colour also explores the way in which modern life constantly oscillates between online and offline realities; from the world we navigate inside our phones to the one we explore each day with our physiological senses. What separates our emotional experience of things like friendship, love and community online versus those we experience IRL? "Sometimes," explains Ned, "that experience of switching between those two worlds can feel like changing from black & white to colour. We wanted to explore that phenomenon on this record." A truly feel-good DIY success story, 'Dream in Colour' also perfectly encapsulates the phenomenon that is Franc Moody themselves.`,
       genre: genres[4]._id,
       price: 29.99,
@@ -361,10 +361,10 @@ db.once('open', async () => {
       7	Scoop
       8	Shambala
       9	Bodhisattva Vow
-      10	Transitions
+      10	Transitions.
 
 
-      Editorial Reviews
+     
       Remastered for the first time, and oversean by the band, the Beastie Boy's Ill Communication makes it's return to the vinyl format. It comes as a 180 gram double gatefold 2 LP set. The second disc comes with 12 tracks, one which is previously unreleased, 3 remixes and one live track.`,
       genre: genres[2]._id,
       price: 24.99,
@@ -390,9 +390,9 @@ db.once('open', async () => {
       13	Triple Trouble
       14	Sabotage
       15	Fight for Your Right
-      16	[CD-ROM Track] [Multimedia]
+      16	[CD-ROM Track] [Multimedia].
 
-      Editorial Reviews
+      
       2005 double vinyl LP compilation. Check it. The Beastie Boys fight for their right to party on 15 of their biggest hits. Spanning their career from rap to rock and other musical nuggets, this vinyl record set features only their best loved hits such as "Fight for Your Right," "Brass Monkey," "So What'cha Want," "Hey Ladies," "Shake Your Rump," "Intergalactic," "Sure Shot" and more! Innovators of rap and a party staple for Generation X, The Beastie Boys will be sure to shake your rump. They sound even better now that they are on vinyl once again. Capitol.
       
       `,
@@ -452,6 +452,24 @@ db.once('open', async () => {
       title: 'Nice N Easy',
       artist: 'Frank Sinatra',
       image: 'Nice-n-Easy.jpg',
+      description: `Track Listings
+      Disc: 1
+      1	Nice 'N' Easy
+      2	That Old Feeling
+      3	How Deep Is the Ocean?
+      4	I've Got a Crush on You
+      5	You Go to My Head
+      6	Fools Rush in
+      Disc: 2
+      1	Nevertheless (I'm in Love with You)
+      2	She's Funny That Way
+      3	Try a Little Tenderness
+      4	Embraceable You
+      5	Mam'selle
+      6	Dream.
+
+      
+      In celebration of the 60th Anniversary of Frank Sinatra's Nice 'n' Easy, the album will be remastered and released on vinyl on June 5th. Features the original 12 tracks like "The Nearness of You", as well as full sessions of "I've Got A Crush on You" and "Nice 'n' Easy" that include previously unreleased alternate takes and reveals Sinatra studio chatter.`,
       genre: genres[3]._id,
       price: 24.99,
       quantity: 5
@@ -460,6 +478,48 @@ db.once('open', async () => {
       title: 'The Very Best of the Rat Pack',
       artist: 'The Rat Pack',
       image: 'Rat.jpeg',
+      description: `Long before today s rebellious pop idols, singers Frank Sinatra, Dean Martin and Sammy Davis Jr plus actor Peter Lawford and comedian Joey Bishop had entered showbiz legend as the genuinely hellraising Rat Pack. Enjoy an album that captures three great entertainers, separately and in combination, performing at their best.
+
+      Track List:
+      Disc 1 – Side A
+      1. Volare (Nel Blu Dipinto Di Blu) (Dean Martin)
+      2. I've Got You Under My Skin (Frank Sinatra)
+      3. Frankie and Johnny (Sammy Davis Jr.)
+      4. That's Amore (Dean Martin)
+      5. I Get a Kick Out of You (Frank Sinatra)
+      6. Something's Gotta Give (Sammy Davis Jr.)
+      7. Memories Are Made of This (Dean Martin)
+      8. Love and Marriage (Frank Sinatra)
+      
+      Disc 1 – Side B
+      9. That Old Black Magic (Sammy Davis Jr.)
+      10. Sway (Dean Martin)
+      11. Come Fly With Me (Frank Sinatra)
+      12. Love Me Or Leave Me (Sammy Davis Jr.)
+      13. The Naughty Lady of Shady Lane (Dean Martin)
+      14. Young at Heart (Frank Sinatra)
+      15. Too Close for Comfort (Sammy Davis Jr.)
+      16. Return to Me (Dean Martin)
+      
+      Disc 2 – Side C
+      1. Mambo Italiano (Dean Martin)
+      2. Old Devil Moon (Frank Sinatra)
+      3. Me and My Shadow (Frank Sinatra & Sammy Davis Jr.)
+      4. Ain't That a Kick in the Head (Dean Martin)
+      5. Nice 'N' Easy (Frank Sinatra)
+      6. All of You (Sammy Davis Jr.)
+      7. Let Me Go Lover (Dean Martin)
+      8. South of the Border (Frank Sinatra)
+      
+      Disc 2 – Side D
+      9. You Make Me Feel So Young (Frank Sinatra)
+      10. When You're Smiling (Dean Martin)
+      11. You Do Something to Me (Sammy Davis Jr.)
+      12. Buona Sera (Dean Martin)
+      13. Three Coins in the Fountain (Frank Sinatra)
+      14. Sam's Song (Sammy Davis Jr. & Dean Martin)
+      15. Too Marvellous for Words (Frank Sinatra)
+      16. Come Back to Sorrento (Dean Martin)`,
       genre: genres[3]._id,
       price: 24.99,
       quantity: 2
@@ -468,6 +528,27 @@ db.once('open', async () => {
       title: 'Endless Summer',
       artist: 'The Midnight',
       image: 'Endless-Summer.jpg',
+      description: `Remastered for vinyl. Double gatefold pink & blue swirled vinyl. 
+
+      Record 1
+      Side A:
+      1. Endless Summer 
+      2. Sunset 
+      3. Daytona
+      Side B: 
+      1. Jason (feat. Nikki Flores)
+      2. Synthetic 
+      3. The Equalizer (Not Alone)
+      
+      Record 2
+      Side A: 
+      1. The Comeback Kid 
+      2. Vampires
+      3. Crockett’s Revenge 
+      Side B: 
+      1. Nighthawks
+      2. Lonely City
+      3. Memories`,
       genre: genres[6]._id,
       price: 34.99,
       quantity: 5
@@ -476,6 +557,17 @@ db.once('open', async () => {
       title: 'Days of Thunder',
       artist: 'The Midnight',
       image: 'Days-of-Thunder.jpg',
+      description: `Remastered for vinyl. Pressed on 140g transparent red vinyl. 
+      
+      Side A: 
+      1. The Years (Prologue) 
+      2. Gloria 
+      3. WeMoveForward 
+      Side B: 
+      1. Days of Thunder
+      2. Kick Drums & Red Wine 
+      3. Los Angeles
+      4. Lost and Found (Bonus Track) `,
       genre: genres[6]._id,
       price: 32.99,
       quantity: 19
@@ -484,6 +576,7 @@ db.once('open', async () => {
       title: 'Dark All Day',
       artist: 'Gunship',
       image: 'Dark-All-Day.jpeg',
+      description: `Dark All Day', the bands sophomore album, sees them build on the success of their 2015 eponymous long player, furthering their reputation as pioneers of the synthwave scene and continuing the 80's retro revival theme popularised by films and series such as Drive, Stranger Things, Ready Player One and every arcade game.`,
       genre: genres[6]._id,
       price: 35.95,
       quantity: 16
@@ -492,6 +585,7 @@ db.once('open', async () => {
       title: 'GUNSHIP',
       artist: 'Gunship',
       image: 'GUNSHIP.jpeg',
+      description: `GUNSHIP is more of a story than a soundtrack, written large across an eighties action cinema screen, where the narrative interweaves romance, hope, fear, technology, the threat of nuclear obliteration, and ultimately the need to celebrate life. Both bleak and dystopian at times but also progressive, uplifting and danceable.`,
       genre: genres[6]._id,
       price: 31.99,
       quantity: 5
@@ -500,6 +594,7 @@ db.once('open', async () => {
       title: 'Black Blood Red Kiss',
       artist: 'Gunship',
       image: 'Black-Blood-Red-Kiss.jpeg',
+      description: `Limited seven inch white vinyl with red splatter colored vinyl pressing. Taken from their second full-length Dark All Day, "Black Blood Red Kiss" takes the "cyberpunk noir" (Xpress Mag) band into a seductive and sensual dreamlike realm, exploring the intriguing relationship between pain and pleasure. The song features musician, tattoo artist and entrepreneur Kat Von D on vocals.`,
       genre: genres[6]._id,
       price: 25.99,
       quantity: 13
@@ -508,6 +603,8 @@ db.once('open', async () => {
       title: 'Fox On the Run',
       artist: 'The Sweet',
       image: 'Fox-on-the-Run.jpeg',
+      description: `Tracks
+      1.1 Ballroom Blitz 1.2 Love Is Like Oxygen 1.3 Little Willy 1.4 Fox on the Run 1.5 Action 1.6 Blockbuster! 1.7 Hellraiser 1.8 Sweet F.A 1.9 Lost Angels 1.10 Fever of Love. A spectacular greatest hits collection from proto-glam rockers Sweet!Includes alternate mixes and rare versions of the band's biggest singles including "Ballroom Blitz," "Little Willy," "Blockbuster!" and more!Gorgeous SILVER/RED SPLATTER vinyl!`,
       genre: genres[1]._id,
       price: 24.99,
       quantity: 2
@@ -516,6 +613,7 @@ db.once('open', async () => {
       title: 'Cherry Bomb',
       artist: 'The Runaways',
       image: 'Cherry-Bomb.jpg',
+      description: `THE RUNAWAYS Cherry Bomb (Rare 1976 Japanese first issue wide centre 7"" single on the silver & blue Mercury label and pressed on Translucent Vinyl `,
       genre: genres[1]._id,
       price: 29.96,
       quantity: 3
@@ -524,6 +622,7 @@ db.once('open', async () => {
       title: 'Goodbye Yellow Brick Road',
       artist: 'Elton John',
       image: 'Goodbye-Yellow-Brick-Road.jpg',
+      description: `Original 1973 US pressing with Trifold Jacket (VG+). Labels (EX) black with rainbow, MCA2-10003. Vinyl (VG++) plays excellent. Pressing Matrix: MCA-354-W11/W2/W9/W9 Groversville pressing plant symbol (stamped). Jacket shows signs of handling. Light cover and some edge wear. Solid spine & seams. No writing.`,
       genre: genres[1]._id,
       price: 34.99,
       quantity: 5
@@ -532,6 +631,38 @@ db.once('open', async () => {
       title: 'Elton John',
       artist: 'Elton John',
       image: 'Elton-John.jpeg',
+      description: `Side A
+      1. Your Song
+      2. I Need You To Turn To
+      3. Take Me To The Pilot
+      4. No Shoe Strings On Louise
+      5. First Episode Hienton
+      
+      Side B
+      1. Sixty Years On
+      2. Border Song
+      3. The Greatest Discovery
+      4. The Cage
+      5. The King Must Die
+      
+      Side C (Bonus Tracks)
+      1. Your Song (Piano Demo)
+      2. I Need You To Turn To (Piano Demo)
+      3. Take Me To The Pilot (Piano Demo)
+      4. Sixty Years On (Piano Demo)
+      5. Border Song (Piano Demo)
+      6. Bad Side Of The Moon (Piano Demo)
+      
+      Side D (Bonus Tracks)
+      1. Thank You Mama (Piano Demo)
+      2. All The Way Down To El Paso (Piano Demo)
+      3. I'm Going Home (Piano Demo)
+      4. Bad Side Of The Moon
+      5. Grey Seal
+      6. Rock And Roll Madonna.
+      Elton John launched his name into the stratosphere that night, on Aug. 25, 1970, his gravity-defying feats at the piano memorably captured in the 2019 Rocketman biopic.
+
+      To celebrate the occasion, a limited-edition release of the pop superstar's self-titled album, his U.S. debut, is here on 180-gram transparent purple vinyl.`,
       genre: genres[1]._id,
       price: 27.99,
       quantity: 12
@@ -540,6 +671,23 @@ db.once('open', async () => {
       title: 'Reg Strike Back',
       artist: 'Elton',
       image: 'Reg-Strikes-Back.jpeg',
+      description: `Reissue on vinyl of the 21st Elton John studio album, Reg Strikes Back, remastered at the world-renowned Lurssen Mastering studio. Originally released in June 1988, the album was certified gold. It features the No. 2 hit "I Don't Wanna Go On With You Like That," plus the singles "A Word In Spanish," "Town Of Plenty," and "Mona Lisas and Mad Hatters (Part Two)." This 180-gram vinyl reissue is faithful to the original tracklisting, packaging and cut at Abbey Road Studios.
+
+
+
+      Side A
+      Town Of Plenty
+      A Word In Spanish
+      Mona Lisas And Mad Hatters (Part Two)
+      I Don't Wanna Go On With You Like That
+      Japanese Hands
+      Side B
+      Goodbye Marlon Brando
+      The Camera Never Lies
+      Heavy Traffic
+      Poor Cow
+      Since God Invented Girls
+      `,
       genre: genres[1]._id,
       price: 24.97,
       quantity: 5
@@ -548,6 +696,21 @@ db.once('open', async () => {
       title: 'Aladdin Sane',
       artist: 'David Bowie',
       image: 'Aladdin-Sane.jpeg',
+      description: `Track Listings
+      Disc: 1
+      1	Watch That Man (2013 Remaster)
+      2	Aladdin Sane (2013 Remaster)
+      3	Drive-In Saturday (2013 Remaster)
+      4	Panic in Detroit (2013 Remaster)
+      5	Cracked Actor (2013 Remaster)
+      Disc: 2
+      1	Time (2013 Remaster)
+      2	The Prettiest Star (2013 Remaster)
+      3	Let's Spend the Night Together (2013 Remaster)
+      4	The Jean Genie (2013 Remaster)
+      5	Lady Grinning Soul (2013 Remaster).
+      
+      “Originally released on 13th April 1973 Aladdin Sane will mark it’s 50th anniversary this year and to celebrate we will be releasing a Half Speed Master version of this iconic album.” The album was preceded by two singles ‘The Jean Genie’ and ‘Drive-In Saturday’, peaking in the U.K. singles chart at numbers 2 and 3 respectively, and was the first time he topped the U.K. album charts. It also marked his debut on the U.S. charts reaching the top 20 album chart there, where an edited version of ‘Time’ was released as a single.`,
       genre: genres[1]._id,
       price: 24.99,
       quantity: 5
@@ -556,6 +719,20 @@ db.once('open', async () => {
       title: 'Space Oddity',
       artist: 'David Bowie',
       image: 'Space.jpg',
+      description: `Track Listings
+      Disc: 1
+      1	Space Oddity (2009 Remaster)
+      2	Unwashed And Somewhat Slightly Dazed (inc. Don't Sit Down) [2009 Remaster]
+      3	Letter To Hermione (2009 Remaster)
+      4	Cygnet Committee (2009 Remaster)
+      Disc: 2
+      1	Janine (2009 Remaster)
+      2	An Occasional Dream (2009 Remaster)
+      3	Wild Eyed Boy From Freecloud (2009 Remaster)
+      4	God Knows I'm Good (2009 Remaster)
+      5	Memory Of A Free Festival (2009 Remaster).
+      
+      Limited picture disc version of the 1972 edition of the DAVID BOWIE album retitled as SPACE ODDITY. The picture disc features the iconic Ziggy Stardust era artwork and comes with a replica of the poster which was part of the package at the time. The picture disc will feature the 2009 40th anniversary remaster of the album which was undertaken to match as closely as possible the original vinyl issue.`,
       genre: genres[1]._id,
       price: 29.99,
       quantity: 11
@@ -564,6 +741,24 @@ db.once('open', async () => {
       title: 'Low',
       artist: 'David Bowie',
       image: 'Low.jpg',
+      description: `Side A:
+      1. Speed of Life
+      2. Breaking Glass
+      3. What In the World
+      4. Sound and Vision
+      5. Always Crashing In the Same Car
+      6. Be My Wife
+      7. A New Career In A New Town
+      
+      Side B:
+      1. Warszawa
+      2. Art Decade
+      3. Weeping Wall
+      4. Subterraneans.
+      
+      180-gram vinyl.
+
+      After the release of 2017's acclaimed A New Career In A New Town (1977-1982) box set, breakouts of five selected albums from the set as stand-alone releases are now available. The five — Low, Heroes, Stage (2017 version 3LP), Lodger, and Scary Monsters (And Super Creeps) — haven't been available on vinyl officially for more than a quarter of a century.`,
       genre: genres[1]._id,
       price: 29.99,
       quantity: 9
@@ -572,6 +767,26 @@ db.once('open', async () => {
       title: 'The Colour and the Shape',
       artist: 'Foo Fighters',
       image: 'The-Colour-and-the-Shape.jpg',
+      description: `Track Listings
+      Disc: 1
+      1	Doll
+      2	Monkey Wrench
+      3	Hey, Johnny Park!
+      4	My Poor Brain
+      Disc: 2
+      1	Wind Up
+      2	Up In Arms
+      3	My Hero
+      4	See You
+      Disc: 3
+      1	Enough Space
+      2	February Stars
+      3	Everlong
+      Disc: 4
+      1	Walking After You
+      2	New Way Home.
+    
+      The Colour and The Shape is the second Foo Fighter album, and followed the band's multi-platinum debut Foo Fighters. Despite the first album's success, few people at the time thought that drummer-turned-frontman Dave Grohl could possibly have a second great album in him. Nonetheless, The Colour and The Shape exceeded all artistic and commerical expectations and established Foo Fighters as one of the most vital bands of our era. With hits like Everlong, Monkey Wrench and My Hero, Foo Fighters became a cornerstone of modern rock radio and a perennial MTV favorite.`,
       genre: genres[1]._id,
       price: 29.99,
       quantity: 5
