@@ -207,6 +207,33 @@ db.once('open', async () => {
       title: 'Choose Your Weapon',
       artist:'Hiatus Kaiyote',
       image: 'CYW-Hiatus.jpeg',
+      description: `Track Listings
+      Disc: 1
+      1	Choose Your Weapon
+      2	Shaolin Monk Motherfunk
+      3	Laputa
+      4	Creations Part One
+      5	Borderline with My Atoms
+      Disc: 2
+      1	Breathing Underwater
+      2	Cicada
+      3	Swamp Thing
+      4	Fingerprints
+      5	Jekyll
+      Disc: 3
+      1	Prince Minikid
+      2	Atari
+      3	By Fire
+      4	Creations Part Two
+      Disc: 4
+      1	The Lung
+      2	Only Time All the Time: Making Friends with Studio Owl
+      3	Molasses
+      4	Building a Ladder
+
+      
+      Editorial Reviews
+      Double vinyl LP pressing. Choose Your Weapon is the second studio album by Australian neo-soul quartet Hiatus Kaiyote, first released in 1 May 2015. Following the release of the band's debut album Tawk Tomahawk (2012) and their first Grammy nomination, Hiatus Kaiyote went on to tour throughout 2014. Over the span of two years, recording sessions took place in Australia and the United States.`,
       genre: genres[4]._id,
       price: 45.99,
       quantity: 20
