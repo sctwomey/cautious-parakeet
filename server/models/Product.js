@@ -24,11 +24,14 @@ const productSchema = new Schema({
     min: 0,
     default: 0
   },
+  description: {
+    type: Text
+  },
   genre: {
     type: Schema.Types.ObjectId,
     ref: 'Genre',
     required: true
-  }
+  } 
 });
 
 const Product = mongoose.model('Product', productSchema);
