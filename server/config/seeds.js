@@ -207,6 +207,33 @@ db.once('open', async () => {
       title: 'Choose Your Weapon',
       artist:'Hiatus Kaiyote',
       image: 'CYW-Hiatus.jpeg',
+      description: `Track Listings
+      Disc: 1
+      1	Choose Your Weapon
+      2	Shaolin Monk Motherfunk
+      3	Laputa
+      4	Creations Part One
+      5	Borderline with My Atoms
+      Disc: 2
+      1	Breathing Underwater
+      2	Cicada
+      3	Swamp Thing
+      4	Fingerprints
+      5	Jekyll
+      Disc: 3
+      1	Prince Minikid
+      2	Atari
+      3	By Fire
+      4	Creations Part Two
+      Disc: 4
+      1	The Lung
+      2	Only Time All the Time: Making Friends with Studio Owl
+      3	Molasses
+      4	Building a Ladder
+
+      
+      Editorial Reviews
+      Double vinyl LP pressing. Choose Your Weapon is the second studio album by Australian neo-soul quartet Hiatus Kaiyote, first released in 1 May 2015. Following the release of the band's debut album Tawk Tomahawk (2012) and their first Grammy nomination, Hiatus Kaiyote went on to tour throughout 2014. Over the span of two years, recording sessions took place in Australia and the United States.`,
       genre: genres[4]._id,
       price: 45.99,
       quantity: 20
@@ -215,6 +242,25 @@ db.once('open', async () => {
       title: 'Tawk Tomahawk',
       artist:'Hiatus Kaiyote',
       image: 'Tomahawk-Hiatus.jpeg',
+      description: `Side A
+      A1. Mobius Streak
+      A2. The World It Softly Lulls
+      A3. Leap Frog
+      A4. Malika
+      A5. Ocelot
+      A6. Boom Child
+      
+      Side B
+      B1. Lace Skull
+      B2. Rainbow Rhodes
+      B3. Sphynx Gate
+      B4. Nakamarra
+      
+      Bonus 7”
+      A1. Nakamarra feat. Q-Tip
+      B1. Boom Child (Clever Austin Remix)
+      
+      KALEIDESCOPIC AUSSIE BAND'S DEBUT ALBUM, WIDELY AVAILABLE ON VINYL FOR THE FIRST TIME EVER. Hiatus Kaiyote's 2012 full-length takes cues from jazz, soul, hip hop, funk + more and primed them for the breakthrough success they would later achieve with 2015's Choose Your Weapon. There's no shortage of impressive moments, with tracks like "Mobius Streak," "Leap Frog," "Sphynx Gate" and "Nakamarra" providing a wide range of undeniable grooves informed equally by broken beat, Los Angeles' beat scene (the album was destined to be reissued by Brainfeeder) and the dusty Australian desert they launched from. This expanded reissue includes a bonus 7-inch with a remix of "Nakamarra" featuring Q-Tip (!!) and a remix of "Boom Child" by Clever Austin.`,
       genre: genres[4]._id,
       price: 55.99,
       quantity: 10
@@ -223,6 +269,7 @@ db.once('open', async () => {
       title: 'Rumours',
       artist:'Fleetwood Mac',
       image: 'Rumours-Fleetwood.jpeg',
+      description: `A1Second Hand News Written-By – Lindsey Buckingham 4:43 A2Dreams Written-By – Stevie Nicks 4:14 A3Never Going Back Again Written-By – Lindsey Buckingham 2:02 A4Don't Stop Written-By – Christine McVie 3:11 A5Go Your Own Way Written-By – Lindsey Buckingham 3:38 A6Songbird Written-By – Christine McVie 3:20 B1The Chain Written-By – C. McVie*, J. McVie*, L. Buckingham*, M. Fleetwood*, S. Nicks* 4:28 B2You Make Loving Fun Written-By – Christine McVie 3:31 B3I Don't Want To Know Written-By – Stevie Nicks 3:11 B4Oh Daddy Written-By – Christine McVie 3:54 B5Gold Dust Woman Written-By – Stevie Nicks 4:51`,
       genre: genres[1]._id,
       price: 24.99,
       quantity: 9
@@ -231,6 +278,24 @@ db.once('open', async () => {
       title: 'Mm Food',
       artist:'MF Doom',
       image: 'Mf-Doom-Mm-food.jpg',
+      description: `MM..Food - Exclusive Limited Edition Pink & Green Colored 2x Vinyl LP
+
+      Tracklist
+      A1 Beef Rapp 4:39
+      A2 Hoe Cakes 3:54
+      A3 Potholderz 3:20
+      B4 One Beer 4:18
+      B5 Deep Fried Frenz 4:59
+      B6 Poo-Putt Platter 1:13
+      B7 Fillet-O-Rapper 1:03
+      B8 Gumbo 0:49
+      C9 Fig Leaf Bi-Carbonate 3:19
+      C10 Kon Karne 2:51
+      C11 Guinnesses 4:41
+      D12 Kon Queso 4:00
+      D13 Rapp Snitch Knishes 2:52
+      D14 Vomitspit 2:48
+      D15 Kookies 4:02`,
       genre: genres[2]._id,
       price: 40.00,
       quantity: 5
@@ -239,6 +304,22 @@ db.once('open', async () => {
       title: 'Dream in Colour',
       artist:'Franc Moody',
       image: 'Franc-Moody-Dream-in-Colour.png',
+      description: `Track Listings
+      1	Dream In Colour
+      2	Terra Firma
+      3	Skin On Skin
+      4	Charge Me Up
+      5	Flesh And Blood
+      6	Night Flight
+      7	She's Too Good For Me
+      8	Grin And Bear It
+      9	Night Flight Reprise
+      10	This Is A Mood
+      11	A Little Something For The Weekend
+
+      
+      Product description
+      Like a Franc Moody live show, Dream in Colour is a life-affirming experience. As a band who came up via the tight-knit warehouse rave scene of London, their performances are all about community and chaos. Each gig feels like a gigantic house party, packed with scenes of crowd surfing, mosh pits, mass sing-alongs and chants of "MOODY! MOODY!" This is where the band feel most at home and it informs one of the many themes running through their debut album, 'Dream in Colour': the experience of letting loose together. Dream in Colour also explores the way in which modern life constantly oscillates between online and offline realities; from the world we navigate inside our phones to the one we explore each day with our physiological senses. What separates our emotional experience of things like friendship, love and community online versus those we experience IRL? "Sometimes," explains Ned, "that experience of switching between those two worlds can feel like changing from black & white to colour. We wanted to explore that phenomenon on this record." A truly feel-good DIY success story, 'Dream in Colour' also perfectly encapsulates the phenomenon that is Franc Moody themselves.`,
       genre: genres[4]._id,
       price: 29.99,
       quantity: 11
