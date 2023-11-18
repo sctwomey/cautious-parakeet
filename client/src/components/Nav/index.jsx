@@ -63,7 +63,7 @@ function Nav() {
       <h1>
         <Link to="/">
           <span className="fa-record" role="img" aria-label="shopping bag"><FaRecordVinyl /></span>
-          Retro Rewind Vinyls
+          <span className="shop-name">Retro Rewind Vinyls</span>
         </Link>
       </h1>
 
