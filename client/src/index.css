@@ -238,11 +238,16 @@ input:focus {
   width: 100%;
   padding: 10px;
   margin-top: 0;
-  height: 70px;
+  height: 57px;
 }
 
 .about-container {
   min-height: calc(52.1vh);
+  margin-left: 200px;
+}
+
+.about-container .col .about-paragraph {
+  align-items: center;
 }
 
 /* This is for the contact form styling, */
