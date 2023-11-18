@@ -48,7 +48,7 @@ const Cart = () => {
 
   function submitCheckout() {
 
-    console.log(...state.cart);
+    console.log("Cart State: ", ...state.cart);
     getCheckout({
       variables: {
         products: [...state.cart],
@@ -80,7 +80,6 @@ const Cart = () => {
 
           <div className="flex-row space-between">
             <strong>Total: ${calculateTotal()}</strong>
-
             {Auth.loggedIn() ? (
               <button onClick={submitCheckout}>Checkout</button>
             ) : (
