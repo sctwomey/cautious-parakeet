@@ -45,7 +45,7 @@ function RandomProducts() {
     }
   }, [state.products]);
 
-  console.log(randomProducts);
+  // console.log(randomProducts);
 
   return (
     <div className="my-2">
@@ -62,7 +62,7 @@ function RandomProducts() {
           ))}
         </div>
       ) : (
-        <h3>You haven't added any products yet!</h3>
+        <h3>No Products In The Cart, Yet!</h3>
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}
     </div>
