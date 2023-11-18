@@ -62,7 +62,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag"><FaRecordVinyl /></span>
+          <span className="fa-record" role="img" aria-label="shopping bag"><FaRecordVinyl /></span>
           Retro Rewind Vinyls
         </Link>
       </h1>

@@ -85,15 +85,23 @@ a:hover {
 header {
   background: rgb(61, 36, 36);
   align-items: baseline;
+  height: 70px;
 }
 
 header a {
   color: var(--light);
   font-size: 20px;
+  align-items: center;
 }
 
 header ul {
   list-style-type: none;
+  align-items: center;
+}
+
+.fa-record {
+  margin-right: 3px;
+  padding: 5px;
 }
 
 button {
