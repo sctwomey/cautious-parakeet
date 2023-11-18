@@ -795,6 +795,20 @@ db.once('open', async () => {
       title: 'Medicine At Midnight',
       artist: 'Foo Fighters',
       image: 'Medicine-At-Midnight.jpg',
+      description: `Track Listings
+      Disc: 1
+      1	Making A Fire
+      2	Shame Shame
+      3	Cloudspotter
+      4	Waiting On A War
+      5	Medicine At Midnight
+      Disc: 2
+      1	No Son Of Mine
+      2	Holding Poison
+      3	Chasing Birds
+      4	Love Dies Young.
+      
+       Medicine at Midnight is the 2021 album from Foo Fighters, and packs nine new songs into a tight-ass 37 minutes. This collection includes the smoldering single, "Shame Shame." Medicine at Midnight is produced by Greg Kurstin and Foo Fighters, and is the band's 10th album. Foo Fighters are Dave Grohl, Taylor Hawkins, Nate Mendel, Chris Shiflett, Pat Smear, and Rami Jaffee.`,
       genre: genres[1]._id,
       price: 24.99,
       quantity: 10
@@ -803,6 +817,23 @@ db.once('open', async () => {
       title: 'Pablo Honey',
       artist: 'Radiohead',
       image: 'Pablo-Honey.jpg',
+      description: `Track Listings
+      Disc: 1
+      1	You
+      2	Creep
+      3	How Do You?
+      4	Stop Whispering
+      5	Thinking About You
+      6	Anyone Can Play Guitar
+      Disc: 2
+      1	Ripcord
+      2	Vegetable
+      3	Prove Yourself
+      4	I Can't
+      5	Lurgee
+      6	Blow Out.
+     
+      Released in 1993, Pablo Honey was the debut studio album from Radiohead. Produced by Sean Slade and Paul Kolderie, the album was recorded at Chipping Norton Recording Studios and Courtyard Studio, Oxfordshire. The album features three charting singles, "Anyone Can Play Guitar", "Stop Whispering", and "Creep". - The standout single "Creep" was the international hit that helped propel Radiohead and Pablo Honey to popular acclaim. Released several months before the album itself, "Creep" went on to define the band's early career. Also included on Pablo Honey are ethereal rocker "You", fan favorite "Thinking About You", and "Blow Out", all of which point to the band's future sonic manipulations.`,
       genre: genres[1]._id,
       price: 29.99,
       quantity: 8
@@ -811,6 +842,24 @@ db.once('open', async () => {
       title: 'Goat',
       artist: 'The Jesus Lizard',
       image: 'Goat.png',
+      description: `Track Listings
+      1	Then Comes Dudley
+      2	Mouth Breather
+      3	Nub
+      4	Seasick
+      5	Monkey Trick
+      6	Karpis
+      7	South Mouth
+      8	Lady Shoes
+      9	Rodeo in Joliet
+      10	[Untitled]
+      11	Sunday You Need Love
+      12	Pop Song
+      13	Seasick [Live]
+      14	Lady Shoes [Live]
+      15	Monkey Trick [Live].
+      
+      Re-mastered in 2009 by Steve Albini and Bob Weston. Vinyl packaged in deluxe gatefold album jacket with 12" x 24" double sided color insert including never before seen photos & extensive liner notes by the band & by journalists who were there. Vinyl also includes a digital download coupon for the LP, plus 5 bonus tracks not included on the LP itself. HQ-120 virgin vinyl pressing made at RTI. CD in deluxe Digipak with 14" x 20" double sided color folder including never before seen photos & extensive liner notes by the band & by journalists who were there. CD also includes 4 bonus tracks.`,
       genre: genres[1]._id,
       price: 28.99,
       quantity: 5
@@ -819,6 +868,25 @@ db.once('open', async () => {
       title: 'Liar',
       artist: 'The Jesus Lizard',
       image: 'Liar.jpg',
+      description: `Album Tracks
+
+      1. Boilermaker
+      2. Gladiator
+      3. The Art of Self-Defense
+      4. Slave Ship
+      5. Puss
+      6. Whirl
+      7. Rope
+      8. Perk
+      9. Zachariah
+      10. Dancing Naked Ladies
+      11. [Untitled]
+      12. Wheelchair Epidemic
+      13. Dancing Naked Ladies [Single Version]
+      14. Gladiator [Idful Studios Sesssions Demo] [Demo Version]
+      15. Boilermaker [Idful Studios Sessions Demo] [Demo Version].
+      
+      Remastered in 2009 by Steve Albini and Bob Weston. Vinyl packaged in deluxe gatefold album jacket with 12"x24" double sided color insert including never before seen photos, & extensive liner notes by the band & by journalists who were there. Vinyl also includes a digital download coupon for entire LP, plus 4 bonus tracks not included on the LP. HQ-120 virgin vinyl pressing made at RTI. CD in deluxe Digipak with 14"x20" double sided color folder including never before seen photos & extensive liner notes by the band & by journalists who were there. CD also includes 4 bonus tracks.`,
       genre: genres[2]._id,
       price: 24.99,
       quantity: 7
@@ -827,6 +895,23 @@ db.once('open', async () => {
       title: 'Enter (36 Chambers)',
       artist: 'Wu-Tang Clan',
       image: 'Enter.jpg',
+      description: `Track Listings
+      Disc: 1
+      1	Bring Da Ruckus
+      2	Shame on a Nigga
+      3	Clan in Da Front
+      4	Wu-Tang: 7th Chamber
+      5	Can It Be All So Simple / Intermission - Wu-Tang Clan
+      6	Protect Ya Neck
+      Disc: 2
+      1	Da Mystery of Chessboxin'
+      2	Wu-Tang Clan Aint Nuthing Ta F' Wit
+      3	C.R.E.A.M. - Wu-Tang Clan
+      4	Method Man
+      5	Tearz - Wu-Tang Clan / Wendy Rene
+      6	Wu-Tang: 7th Chamber - Part II.
+      
+      Enter The Wu-Tang (36 Chambers) the pioneering Hip Hop album form the Wu-Tang Clan re-issued on heavyweight 180 gram black vinyl`,
       genre: genres[2]._id,
       price: 29.99,
       quantity: 13
@@ -835,6 +920,23 @@ db.once('open', async () => {
       title: 'Tougher Than Leather',
       artist: 'Run DMC',
       image: 'Tougher-Than-Leather.jpeg',
+      description: `Track Listings
+      Disc: 1
+      1	Run's House
+      2	Mary, Mary
+      3	They Call Us Run-D.M.C.
+      4	Beats to the Rhyme
+      5	Radio Station
+      6	Papa Crazy
+      Disc: 2
+      1	Tougher Than Leather
+      2	I'm Not Going Out Like That
+      3	How'd Ya Do It Dee
+      4	Miss Elaine
+      5	Soul To Rock And Roll
+      6	Ragtime.
+      
+      Released in 1988, Tougher Than Leather followed Run-DMC’s massively successful third album Raising Hell and furthered their innovative, aggressive, and hard-hitting sound that defined the hip-hop scene of the 1980s. From the incredible lead single, “Run’s House” to their cover of The Monkee’s “Mary, Mary,” Tougher Than Leather features a slew of incredible hits and is essential listening for any fan of classic hip-hop. Tougher Than Leather blends Run-DMC’s infectious, charismatic flows and heavily sample-based production with hard-hitting raps, soaring choruses, and rapid-fire delivery. Stand out tracks include “Run’s House,” “I’m Not Going Out Like That,” as well as “Beats to the Rhyme,” a story-based cut that stands as an anthem to hip-hop.`,
       genre: genres[2]._id,
       price: 31.99,
       quantity: 15
@@ -843,6 +945,23 @@ db.once('open', async () => {
       title: 'Reachin (a new refutation of time and space)',
       artist: 'Digable Planets',
       image: 'Reachin.jpg',
+      description: `Track Listings
+      1	It's Good to Be Here
+      2	Pacifics
+      3	Where I'm from
+      4	What Cool Breezes Do
+      5	Time & Space (A New Refutation of)
+      6	Rebirth of Slick (Cool Like Dat)
+      7	Last of the Spiddyocks
+      8	Jimmi Diggin Cats
+      9	La Femme Fétal
+      10	Escapism (Gettin' Free)
+      11	Appointment at the Fat Clinic
+      12	Nickel Bags
+      13	Swoon Units
+      14	Examination of What.
+      
+    At a time when hip-hop was determined to snap your neck, a young, hip trio from Brooklyn (by way of Seattle, Philly, and Brazil) conspired on an uncommonly smooth new sound and freaky way of speak, a titanically chill expression of Black bohemia loaded with jazz idiom and a subversive Marxist bent-and pushed it worldwide via an undeniable crossover hit. Digable Planets' 1993 debut, Reachin' (A New Refutation of Time and Space), unexpected to all involved, produced a massive radio hit in "Rebirth Of Slick (Cool Like Dat)", which won the 1994 Grammy for Best Rap Performance by Duo or Group. Unduly lumped into an "alternative rap" subgenre they chafed at, the Dig Plans were dismissed by some as one-hit wonders, coming out of nowhere; but the Digable Planets concept, and what became Reachin', had been in the works for close to five years, as group leader Ishmael "Butterfly" Butler wrote music and soaked up game in multiple cities, navigating the industry of hip-hop's golden age. In the end, Butler, Mary Anne "Ladybug Mecca" Vieira, and Craig "Doodlebug" Irving came together to create a seamlessly articulated vision of urbane hip hop cool with an uncommonly literary bent that subtly pushed the hip hop genre's frames of reference and added breadth to rap music's burgeoning political philosophy. Drawing on inspiration from Butler's jazzbo father, the Black Panthers, Jose Luis-Borges, the Last Poets, and Jimi Hendrix, Reachin' posited a theory of "universal beats", narrated by three unearthly MC's that had "split to Earth to resurrect the funk", assuming curious, arthropodic aliases - a nod to the natural collective action of the insect world. In just four years the crew would record two beloved and ambitious LPs before disbanding. Out of print on wax domestically since 1993, Reachin' captures one of the last gasps of rap music's jazzy, upbeat adolescence in the early 90's - those warm, blissed-out grooves every bit as slick as when they were laid way back when. Put this on, roll up with your crew and bug out again with the insect tribe.`,
       genre: genres[2]._id,
       price: 27.99,
       quantity: 8
@@ -851,6 +970,29 @@ db.once('open', async () => {
       title: 'Operation Doomsday',
       artist: 'MF Doom',
       image: 'Operation-Doomsday.jpeg',
+      description: `Track Listings
+      Disc: 1
+      1	The Time We Faced Doom
+      2	Doomsday
+      3	Rhymes Like Dimes (Feat. DJ Cucumber Slice)
+      4	The Finest (Feat. Tommy Gunn)
+      5	Back in the Days
+      6	Go with the Flow
+      7	Tick Tock (Feat. MF Grimm)
+      8	Red & Gold
+      9	The Hands of Doom
+      Disc: 2
+      1	Doom, Are You Awake
+      2	Hey
+      3	Operation Greenbacks (Feat. Megalon & King Geedoarh)
+      4	The Mic
+      5	The Mystery of Doom
+      6	Dead Bent
+      7	Gas Drawls
+      8	Question Mark (Feat. Kurious Jorge)
+      9	Hero Vs Villain.
+     
+      Personnel includes: M.F. Doom, Kurious, Megalon, Rodan, Tommy Gunn, Cucumber Slice, E. Mason, MF Grimm, King Ghidra, X-Ray, K.D., Kong. Daniel Dumile aka MF Doom unleashed his debut LP in early 1999. Doom's flow is warm, rough-hewn, and definitely charming--standing in stark contrast to the alienating, intimidating man in the mask--while the production sounds like a smoother, jazzier take on the early-'90s sampling era. This starting point has enough substance to warrant repeated listens while foreshadowing MF Doom's strengths on future releases.`,
       genre: genres[2]._id,
       price: 44.99,
       quantity: 4
@@ -859,6 +1001,22 @@ db.once('open', async () => {
       title: 'Live at the Apollo',
       artist: 'Run DMC',
       image: 'Live-at-the-Apollo.jpg',
+      description: `LP Vinyl Album, Live, 12 Tracks, 2015, pressage Europe, Sealed, label Egg Raid, reference EGG-341, Limited Edition 500 ex., Live at the Apollo, New York City, April 19th, 1986.
+      Broadcast on WBLS 107,5 FM Radio for Rap Attack.
+      
+      Tracklist
+      A1	Jam Master Jay Intro	
+      A2	Tougher Than Leather                           
+      A3	My Adidas	
+      A4	Rock Box	
+      A5	Darryl & Joe	
+      A6	Jam Master Jay	
+      B1	Here We Go	
+      B2	It's Like That	
+      B3	Raising Hell	
+      B4	Hit It Run	
+      B5	Peter Piper	
+      B6	King Of Rock`,
       genre: genres[2]._id,
       price: 25.99,
       quantity: 2
@@ -868,14 +1026,55 @@ db.once('open', async () => {
       title: 'Blowout Comb',
       artist: 'Digable Planets',
       image: 'Blowout-Comb.jpg',
+      description: `Track Listings
+      1	The May 4th Movement Starring Doodlebug
+      2	Black Ego
+      3	Dog It
+      4	Jettin'
+      5	Borough Check (Feat. Guru)
+      6	Highing Fly
+      7	Dial 7 (Axioms of Creamy Spies) / NY 21 Theme (Feat. Sarah Anne Webb)
+      8	The Art of Easing
+      9	K.B.'s Alley (Mood Dudes Groove)
+      10	Graffiti (Feat. Jeru the Damaja)
+      11	Blowing Down
+      12	9th Wonder (Blackitolism) (Feat. DJ Jazzy Joyce)
+      13	For Corners (Feat. Monica Payne and Sulaiman).
+      
+      Double translucent purple vinyl LP pressing. Blowout Comb is the second studio album by Digable Planets, originally released in 1994. The album was written and recorded in Brooklyn, New York, where the group moved, with recording sessions beginning in 1993 and finishing in 1994. On Blowout Comb, Digable Planets abandoned the radio friendly style of their debut album and worked with a more ambitious, stripped-down sound. The album features a diverse range of samples and live instruments, and contains lyrical themes of the inner city and black nationalism. It also features guest appearances from Guru of Gang Starr, Jeru the Damaja, and DJ Jazzy Joyce.`,
       genre: genres[2]._id,
       price: 34.99,
       quantity: 5
     },
     {
-      title: 'Madvillain',
+      title: 'Madvillainy',
       artist: 'MF Doom',
       image: 'Madvillain.jpg',
+      description: `Track Listings
+      1	The Illest Villains
+      2	Accordion
+      3	Meat Grinder
+      4	Bistro
+      5	Raid
+      6	America's Most Blunted
+      7	Sickfit
+      8	Rainbows
+      9	Curls
+      10	Do Not Fire!
+      11	Money Folder
+      12	Shadows of Tomorrow
+      13	Operation Lifesaver Aka Mint Test
+      14	Figaro
+      15	Hardcore Hustler
+      16	Strange Ways
+      17	Fancy Clown
+      18	Eye
+      19	Supervillain Theme
+      20	All Caps
+      21	Great Day
+      22	Rhinestone Cowboy.
+      
+      Madvillain: Madlib, MF Doom. Additional personnel includes: Lord Quas, M. E. D. , Wildchild, Viktor Vaughn, Stacy Epps. Two years in the making, and combining two of the best underground hip-hop artists of the early 2000s, this collaboration between MF Doom and Madlib has been appropriately dubbed MADVILLAINY. With both men known for their stunning soundscapes, rhyming skills, and schizophrenic personalities, the duo decided to have Madlib concentrate on the beats and let Doom handle the lyrics. In mixing their comic-book-like personas, Madlib and Doom play to their nearly superhuman strengths; while some other collaborations of this caliber seems forced and lop-sided, there is absolutely no filler here-just undiluted beats and rhymes, best exemplified by the singles "America's Most Blunted" and "All Caps. " Lib's inventive production leans towards the jazzy side of his repertoire, and Doom unleashes outrageous lyrics on par with his solo efforts (and even his work as Zevlove X in his stint with K. M. D. ). Never flashy or glamorous, MADVILLAINY is served straight up, the way hip-hop was meant to be.`,
       genre: genres[2]._id,
       price: 49.99,
       quantity: 2
