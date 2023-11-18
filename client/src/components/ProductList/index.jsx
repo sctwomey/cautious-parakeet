@@ -10,7 +10,7 @@ import spinner from '../../assets/spinner.gif';
 function ProductList() {
   const [state, dispatch] = useStoreContext();
 
-  const { currentCategory } = state;
+  const { currentGenre } = state;
 
   const { loading, data } = useQuery(QUERY_PRODUCTS);
 
@@ -34,12 +34,12 @@ function ProductList() {
   }, [data, loading, dispatch]);
 
   function filterProducts() {
-    if (!currentCategory) {
+    if (!currentGenre) {
       return state.products;
     }
 
     return state.products.filter(
-      (product) => product.category._id === currentCategory
+      (product) => product.genre._id === currentGenre
     );
   }
 
@@ -47,7 +47,7 @@ function ProductList() {
     <div className="my-2">
       <h2 className="productList-h2">Vinyls</h2>
       {state.products.length ? (
-        <div className="flex-row">
+        <div className="flex-row productList-content">
           {filterProducts().map((product) => (
             <ProductItem
               key={product._id}

@@ -4,11 +4,14 @@ import Cart from "../components/Cart";
 
 const Shop = () => {
   return (
-    <div className="container">
-      <GenreMenu />
-      <ProductList />
-      <Cart />
-    </div>
+    <>
+      <h2 className="shop-page-h2">Shop</h2>
+      <div className="container">
+        <GenreMenu />
+        <ProductList />
+        <Cart />
+      </div>
+    </>
   );
 };
 
