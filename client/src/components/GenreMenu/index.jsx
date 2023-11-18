@@ -42,10 +42,10 @@ function GenreMenu() {
   };
 
   return (
-    <div>
-      <h2>Choose a Genre:</h2>
+    <div className="genre-shop-page">
+      <h2 className="genre-h2">Genres to Explore</h2>
       {genres.map((item) => (
-        <button
+        <button className="btn btn-genre"
           key={item._id}
           onClick={() => {
             handleClick(item._id);
@@ -54,7 +54,7 @@ function GenreMenu() {
           {item.name}
         </button>
       ))}
-      <button
+      <button className="btn btn-genre"
         onClick={() => {
           handleClick('');
         }}

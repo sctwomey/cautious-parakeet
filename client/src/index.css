@@ -173,6 +173,31 @@ input:focus {
   justify-content: flex-end;
 }
 
+.genre-h2 {
+  color: var(--light);
+  background-color: var(--primary);
+  margin: 25px auto;
+}
+
+.btn-genre {
+  color: var(--light);
+  background-color: var(--secondary);
+  width: 145px;
+}
+
+.btn-genre:hover {
+  color: var(--light);
+  background-color: var(--secondary);
+  opacity: 0.5;
+}
+
+.productList-h2 {
+  color: var(--light);
+  background-color: var(--primary);
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
