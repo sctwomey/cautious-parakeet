@@ -1079,6 +1079,95 @@ db.once('open', async () => {
       price: 49.99,
       quantity: 2
     },
+    {
+      title: 'The Best of Earth, Wind, & Fire Vol. 1',
+      artist: 'Earth, Wind, & Fire',
+      image: 'Madvillain.jpg',
+      description:`Track Listings
+      Disc: 1
+      1	Got to Get You Into My Life
+      2	Fantasy
+      3	Can't Hide Love
+      4	Love Music
+      5	Getaway
+      Disc: 2
+      1	That's the Way of the World
+      2	September
+      3	Shining Star
+      4	Reasons
+      5	Sing a Song.
+    
+      The Best of Earth, Wind & Fire, Vol. 1 is a 1978 compilation album collecting the charting singles of Earth, Wind & Fire. In addition to collecting previously charting songs, the album also included three new tracks for the band: a cover of The Beatles' song "Got to Get You Into My Life" and the original track "September", both of which also became charting singles, the former also winning a Grammy Award, and "Love Music." Love Music was sampled by Ghostface Killah on his track Good featured on his 2006 album More Fish. "September" has been sampled by Crystal Waters on her track "Say... If You Feel Alright" from her 1996 album Crystal Waters.`,
+      genre: genres[4]._id,
+      price: 19.96,
+      quantity: 10
+    },
+    {
+      title:'Spirit',
+      artist:'Earth, Wind, & Fire',
+      image:'',
+      description:`1. Getaway
+      2. On Your Face
+      3. Imagination
+      4. Spirit
+      5. Saturday Nite
+      6. Earth, Wind & Fire
+      7. Departure
+      8. Biyo
+      9. Burnin' Bush.
+      180-gram vinyl
+
+      The wise saying "spiritus ubi vult spirat" ("the spirit blows where it wills") is interpreted by Earth, Wind & Fire with impressive clarity. Gentle sounds and modest gestures are foreign to the colourful Afro group, who in their live performances welded together ancient Egyptian Pharaonic mysticism with urban street life. That this spirit, which is found in the LP title and blows all the way through it, was guaranteed not only by the exuberant wind section in the group’s early years.`,
+      genre: genres[4]._id,
+      price: 41.99,
+      quantity: 5,
+    },
+    {
+      title:'Spirit',
+      artist:'Earth, Wind, & Fire',
+      image:'',
+      description:``,
+      genre: genres[4]._id,
+      price: 41.99,
+      quantity: 5,
+    },
+    {
+      title:'Spirit',
+      artist:'Earth, Wind, & Fire',
+      image:'',
+      description:``,
+      genre: genres[4]._id,
+      price: 41.99,
+      quantity: 5,
+    },
+    {
+      title:'Spirit',
+      artist:'Earth, Wind, & Fire',
+      image:'',
+      description:``,
+      genre: genres[4]._id,
+      price: 41.99,
+      quantity: 5,
+    },
+    {
+      title:'Spirit',
+      artist:'Earth, Wind, & Fire',
+      image:'',
+      description:``,
+      genre: genres[4]._id,
+      price: 41.99,
+      quantity: 5,
+    },
+    {
+      title:'Spirit',
+      artist:'Earth, Wind, & Fire',
+      image:'',
+      description:``,
+      genre: genres[4]._id,
+      price: 41.99,
+      quantity: 5,
+    },
+    
 
   ]);
 
