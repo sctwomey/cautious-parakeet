@@ -1,57 +1,65 @@
 import Auth from "../../utils/auth";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from 'react-router-dom';
 import { FaRecordVinyl } from "react-icons/fa";
 
 
 function Nav() {
-
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/orderHistory">
+        <ul className="nav-list">
+          <li>
+            <Link to="/orderHistory" className="nav-link">
               Order History
             </Link>
           </li>
-          <li className="mx-1">
-            {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-            <a href="/" onClick={() => Auth.logout()}>
+          <li>
+            <a href="/" onClick={() => Auth.logout()} className="nav-link">
               Logout
             </a>
           </li>
-          <li className="mx-1">
-            <input className="search-bar" type="text" placeholder="Search.."></input>
+          <li className="search-bar-container">
+            <input className="search-bar" type="text" placeholder="Search.." />
           </li>
-          <li className="mx-1">
-            <a href="/Shop">Shop</a>
+          <li>
+            <Link to="/Shop" className="nav-link">
+              Shop
+            </Link>
           </li>
-          <li className="mx-1">
-            <a href="/About">About</a>
+          <li>
+            <Link to="/About" className="nav-link">
+              About
+            </Link>
           </li>
-          <li className="mx-1">
-            <a href="/Contact">Contact</a>
+          <li>
+            <Link to="/Contact" className="nav-link">
+              Contact
+            </Link>
           </li>
         </ul>
       );
     } else {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/signup">
+        <ul className="nav-list">
+          <li>
+            <Link to="/signup" className="nav-link">
               Signup
             </Link>
           </li>
-          <li className="mx-1">
-            <Link to="/login">
+          <li>
+            <Link to="/login" className="nav-link">
               Login
             </Link>
           </li>
-          <li className="mx-1">
-            <a href="">About</a>
+          <li>
+            <Link to="/About" className="nav-link">
+              About
+            </Link>
           </li>
-          <li className="mx-1">
-            <a href="/Contact">Contact</a>
+          <li>
+            <Link to="/Contact" className="nav-link">
+              Contact
+            </Link>
           </li>
         </ul>
       );
@@ -59,15 +67,16 @@ function Nav() {
   }
 
   return (
-    <header className="flex-row px-1">
-      <h1>
+    <header className="nav-header">
+      <h1 className="logo">
         <Link to="/">
-          <span className="fa-record" role="img" aria-label="shopping bag"><FaRecordVinyl /></span>
+          <span className="fa-record" role="img" aria-label="shopping bag">
+            <FaRecordVinyl />
+          </span>
           <span className="shop-name">Retro Rewind Vinyls</span>
         </Link>
       </h1>
-
-      <nav>
+      <nav className="nav-container">
         {showNavigation()}
       </nav>
     </header>
