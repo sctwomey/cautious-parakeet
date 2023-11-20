@@ -494,8 +494,22 @@ footer {
   margin: 10px 0;
 }
 
+.icons {
+  display: flex;
+  /* justify-content: space-between; */
+justify-content: center;
+}
+
 .footer-link a {
   color: white;
+}
+
+.footer-icon a {
+  display: block;
+  color: white;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .g2k {

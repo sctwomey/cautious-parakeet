@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import FAQPage from '../../pages/FAQPage';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
-    const scrollToTop = () => {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-      };
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <footer>
       <div className="footer-column">
@@ -34,11 +35,23 @@ const Footer = () => {
       <div className="footer-column">
         <h4 className='g2k2'>Follow Us</h4>
         <hr />
-        <ul>
-          <li className='footer-link'><Link to="/Facebook">Facebook</Link></li>
-          <li className='footer-link'><Link to="/Instagram">Instagram</Link></li>
-          <li className='footer-link'><Link to="/Twitter">Twitter</Link></li>
-        </ul>
+        <div className='icons'>
+          <p className='footer-icon'>
+            <Link to="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <FaFacebook /> {/* Display Facebook icon */}
+            </Link>
+          </p>
+          <p className='footer-icon'>
+            <Link to="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <FaInstagram /> {/* Display Instagram icon */}
+            </Link>
+          </p>
+          <p className='footer-icon'>
+            <Link to="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <FaTwitter /> {/* Display Twitter icon */}
+            </Link>
+          </p>
+        </div>
       </div>
     </footer>
   );
