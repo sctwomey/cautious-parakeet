@@ -18,7 +18,7 @@ function OrderHistory() {
 
         {user ? (
           <>
-            <h2>
+            <h2 className='order-history'>
               Order History for {user.userName}
             </h2>
             {user.orders.map((order) => (

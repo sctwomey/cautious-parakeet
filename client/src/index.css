@@ -3,7 +3,8 @@
 
 :root {
   --primary: rgb(61, 36, 36);
-  --secondary: #E09963;
+  /* --secondary: #E09963; */
+  --secondary: rgb(158, 81, 81);;
   --tertiary: #5f0d0d;
   --light: #ffffff;
   --dark: #272f32;
@@ -75,7 +76,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -83,7 +84,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  opacity: 0.5;
+  opacity: .75;
 }
 
 header {
@@ -123,6 +124,7 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  color: white;
 }
 
 button:hover {
@@ -209,13 +211,14 @@ input:focus {
 .genre-h2 {
   color: var(--light);
   background-color: var(--primary);
-  margin: 25px auto;
+  margin: 30px auto;
 }
 
 .btn-genre {
   color: var(--light);
   background-color: var(--secondary);
-  width: 145px;
+  width: 125px;
+  margin-left: 10px;
 }
 
 .btn-genre:hover {
@@ -286,7 +289,6 @@ input:focus {
   color: var(--error);
 }
 
-/* This is for the about page styling, */
 .about-retro-h2 {
   font-weight: bold;
   margin-bottom: 50px;
@@ -302,6 +304,7 @@ input:focus {
 .about-container {
   min-height: calc(52.1vh);
   margin-left: 200px;
+  margin-bottom: 50px;
 }
 
 .about-container .col .about-paragraph {
@@ -311,6 +314,7 @@ input:focus {
 /* This is for the contact form styling, */
 .contact-container {
   min-height: calc(52.1vh);
+  margin-bottom: 50px;
 }
 
 .contact-retro-h2 {
@@ -323,6 +327,34 @@ input:focus {
   padding: 10px;
   margin-top: 0;
   height: 70px;
+}
+
+.order-history {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 200px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+  height: 70px;
+}
+
+.detail-area {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 660px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+  height: 70px;
+}
+
+.detail-desc {
+  font-size: 13px;
 }
 
 .form-group {
@@ -475,3 +507,188 @@ footer {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 45px;
 }
+
+.faq-list {
+  list-style: none;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.faq-item {
+  margin: 10px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.faq-header {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.faq-button {
+  background-color: var(--secondary);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+.faq-answer {
+  background-color: #cfcfcf;
+  padding: 10px;
+  margin-top: 10px;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease; /* Add a smooth transition effect */
+  text-align: center;
+}
+
+.faq-button:hover {
+  opacity: 0.25;
+}
+
+.faq-answer.show {
+  display: block;
+  max-height: 1000px; /* Set a large max-height for the dropdown effect */
+}
+
+.shipping-returns-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.policy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.policy-content h3 {
+  margin-top: 20px;
+}
+
+.flex-row{
+  display: flex;
+  flex: auto;
+  align-items: center;
+}
+
+.search-bar {
+  width: 150px; /* Adjust the width as needed */
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary);
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--light);
+}
+
+.logo span {
+  margin-right: 5px;
+}
+
+.shop-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 80px;
+  text-decoration: none;
+  color: var(--light);
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: white;/* Change color when link is clicked */
+}
+
+.nav-link:active {
+  color: white /* Change color when link is clicked */
+}
+
+.nav-link,
+.nav-link:visited {
+  margin-right: 80px;
+  text-decoration: none;
+  color: var(--light);
+  font-size: 1rem;
+  outline: none; /* Remove the default focus outline */
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-container {
+  margin-right: 80px;
+}
+
+.search-bar {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  width: 15rem;
+}
+
+.search-bar:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+}
+
+.auth-links .nav-link {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+    margin-right: 0;
+  }
+
+  .search-bar-container {
+    margin-right: 0;
+  }
+}
+

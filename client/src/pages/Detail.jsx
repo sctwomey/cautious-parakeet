@@ -83,13 +83,14 @@ function Detail() {
 
   return (
     <>
+    <div className='detail-area'>
       {currentProduct && cart ? (
         <div className="container my-1 details-container">
           <Link to="/Shop">← Back to Products</Link>
 
           <h2>{currentProduct.title}</h2>
 
-          <p>{currentProduct.description}</p>
+          <p className='detail-desc'>{currentProduct.description}</p>
 
           <p>
             <strong>Price:</strong>${currentProduct.price}{' '}
@@ -110,6 +111,7 @@ function Detail() {
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
       <Cart />
+      </div>
     </>
   );
 }

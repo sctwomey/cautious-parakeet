@@ -8,6 +8,9 @@ import Home from './pages/Home';
 import Shop from './pages/Shop';
 import About from './pages/About'
 import Contact from './pages/Contact';
+import FAQPage from './pages/FAQPage';
+import ShippingReturnsPage from './pages/ShippingReturnsPage';
+import StorePolicyPage from './pages/StorePolicyPage';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
@@ -48,6 +51,15 @@ const router = createBrowserRouter([
       }, {
         path: '/contact',
         element: <Contact />
+      },{
+        path: '/faqpage',
+        element: <FAQPage />
+      },{
+        path: '/shippingreturnspage',
+        element: <ShippingReturnsPage />
+      },{
+        path: '/storepolicypage',
+        element: <StorePolicyPage />
       },
     ],
   },

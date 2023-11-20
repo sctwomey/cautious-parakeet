@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import FAQPage from '../../pages/FAQPage';
 
 const Footer = () => {
     const scrollToTop = () => {
@@ -24,9 +25,9 @@ const Footer = () => {
         <h4 className='g2k2'>Help</h4>
         <hr />
         <ul>
-          <li className='footer-link'><Link to="/FAQ">FAQ</Link></li>
-          <li className='footer-link'><Link to="/ShippingReturns">Shipping & Returns</Link></li>
-          <li className='footer-link'><Link to="/StorePolicy">Store Policy</Link></li>
+          <li className='footer-link'><Link to="/FAQPage">FAQ</Link></li>
+          <li className='footer-link'><Link to="/ShippingReturnsPage">Shipping & Returns</Link></li>
+          <li className='footer-link'><Link to="/StorePolicyPage">Store Policy</Link></li>
         </ul>
       </div>
 
