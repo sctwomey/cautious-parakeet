@@ -311,6 +311,9 @@ input:focus {
   /* height: 20%; */
   text-align: center;
   justify-content: space-between;
+  padding: 15px;
+  border: none;
+
 }
 
 .error-text {
