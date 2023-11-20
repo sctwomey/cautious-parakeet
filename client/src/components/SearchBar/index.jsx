@@ -19,7 +19,7 @@ function SearchBar() {
             setFoundProducts(results);
         } else {
             setFoundProducts(QUERY_PRODUCTS);
-            // If the text field is empty, show all users
+            // If the text field is empty, show all products
         }
 
         setTitle(keyword);

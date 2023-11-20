@@ -2,6 +2,9 @@ import Auth from "../../utils/auth";
 import { Link, NavLink } from 'react-router-dom';
 import { FaRecordVinyl } from "react-icons/fa";
 
+import { useQuery } from '@apollo/client';
+import { QUERY_USER } from '../utils/queries';
+
 
 function Nav() {
   function showNavigation() {
