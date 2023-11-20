@@ -63,7 +63,7 @@ const resolvers = {
           price_data: {
             currency: 'usd',
             product_data: {
-              title: product.title,
+              name: product.title,
               description: product.description,
               images: [`${url}/images/${product.image}`],
             },

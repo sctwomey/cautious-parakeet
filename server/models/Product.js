@@ -14,6 +14,9 @@ const productSchema = new Schema({
   image: {
     type: String
   },
+  description: {
+    type: String
+  },
   price: {
     type: Number,
     required: true,
@@ -24,14 +27,11 @@ const productSchema = new Schema({
     min: 0,
     default: 0
   },
-  description: {
-    type: String
-  },
   genre: {
     type: Schema.Types.ObjectId,
     ref: 'Genre',
     required: true
-  } 
+  }
 });
 
 const Product = mongoose.model('Product', productSchema);
