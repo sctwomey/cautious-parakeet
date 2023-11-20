@@ -1079,6 +1079,183 @@ db.once('open', async () => {
       price: 49.99,
       quantity: 2
     },
+    {
+      title: 'The Best of Earth, Wind, & Fire Vol. 1',
+      artist: 'Earth, Wind, & Fire',
+      image: 'earth.jpg',
+      description:`Track Listings
+      Disc: 1
+      1	Got to Get You Into My Life
+      2	Fantasy
+      3	Can't Hide Love
+      4	Love Music
+      5	Getaway
+      Disc: 2
+      1	That's the Way of the World
+      2	September
+      3	Shining Star
+      4	Reasons
+      5	Sing a Song.
+    
+      The Best of Earth, Wind & Fire, Vol. 1 is a 1978 compilation album collecting the charting singles of Earth, Wind & Fire. In addition to collecting previously charting songs, the album also included three new tracks for the band: a cover of The Beatles' song "Got to Get You Into My Life" and the original track "September", both of which also became charting singles, the former also winning a Grammy Award, and "Love Music." Love Music was sampled by Ghostface Killah on his track Good featured on his 2006 album More Fish. "September" has been sampled by Crystal Waters on her track "Say... If You Feel Alright" from her 1996 album Crystal Waters.`,
+      genre: genres[4]._id,
+      price: 19.96,
+      quantity: 10
+    },
+    {
+      title:'Spirit',
+      artist:'Earth, Wind, & Fire',
+      image:'earth2.jpg',
+      description:`1. Getaway
+      2. On Your Face
+      3. Imagination
+      4. Spirit
+      5. Saturday Nite
+      6. Earth, Wind & Fire
+      7. Departure
+      8. Biyo
+      9. Burnin' Bush.
+      180-gram vinyl
+
+      The wise saying "spiritus ubi vult spirat" ("the spirit blows where it wills") is interpreted by Earth, Wind & Fire with impressive clarity. Gentle sounds and modest gestures are foreign to the colourful Afro group, who in their live performances welded together ancient Egyptian Pharaonic mysticism with urban street life. That this spirit, which is found in the LP title and blows all the way through it, was guaranteed not only by the exuberant wind section in the group’s early years.`,
+      genre: genres[4]._id,
+      price: 27.99,
+      quantity: 5,
+    },
+    {
+      title:'Funkadelic',
+      artist:'Parliament',
+      image:'funkadelic.jpeg',
+      description:`Album Tracks
+
+      1. Mommy, What's A Funkadelic
+      2. I'll Bet You
+      3. Music For My Mother
+      4. I Got A Thing, You Got A Thing, Everybody's Got A Thing
+      5. Good Old Music
+      6. Qualify And Satisfy
+      7. What Is Soul
+      Funkadelic - Funkadelic: 50th Anniversary Edition (180gm Orange Vinyl)`,
+      genre: genres[4]._id,
+      price: 25.99,
+      quantity: 5,
+    },
+    {
+      title:'Mothership Connection',
+      artist:'Parliament',
+      image:'mothership.jpg',
+      description:`Track Listings
+      1	Funk (Wants to Get Funked Up)
+      2	Mothership Connection (Star Child)
+      3	Unfunky Ufo
+      4	Supergroovalisticprosifunkstication (The Bumps Bump)
+      5	Handcuffs
+      6	Give Up the Funk (Tear the Roof Off the Sucker)
+      7	Night of the Thumpasorus Peoples.
+
+      Mothership Connection is the fourth album by American funk band Parliament. Mothership Connection became Parliament's first album to be certified gold and later platinum. The Library of Congress added the album to the National Recording Registry in 2011, declaring "The album has had an enormous influence on jazz, rock and dance music." Continuing with its Respect The Classics campaign UMe will be reissuing this classic back on vinyl with a limited edition 3D cover that's mind blowing!`,
+      genre: genres[4]._id,
+      price: 31.99,
+      quantity: 7,
+    },
+    {
+      title:'Forty Licks',
+      artist:'The Rolling Stones',
+      image:'40licks.jpg',
+      description:`Side A
+      Street Fighting Man
+      Gimme Shelter
+      (I Can’t Get No) Satisfaction
+      The Last Time
+      Jumpin’ Jack Flash
+      Side B
+      You Can’t Always Get What You Want
+      19th Nervous Breakdown
+      Under My Thumb
+      Not Fade Away
+      Have You Seen Your Mother, Baby, Standing In The Shadow?
+      Side C
+      Sympathy For The Devil
+      Mother’s Little Helper
+      She’s A Rainbow
+      Get Off Of My Cloud
+      Wild Horses
+      Side D
+      Ruby Tuesday
+      Paint It, Black
+      Honky Tonk Women
+      It’s All Over Now
+      Let’s Spend The Night Together
+      Side E
+      Start Me Up
+      Brown Sugar
+      Miss You
+      Beast Of Burden
+      Don’t Stop
+      Side F
+      Happy
+      Angie
+      You Got Me Rocking
+      Shattered
+      Fool To Cry
+      Side G
+      Love Is Strong
+      Mixed Emotions
+      Key To Your Love
+      Anybody Seen My Baby?
+      Stealing My Heart
+      Side H
+      Tumbling Dice
+      Undercover Of The Night
+      Emotional Rescue
+      It’s Only Rock ‘N’ Roll (But I Like It)
+      Losing My Touch.
+      To celebrate Mick Jagger's 80th birthday, Forty Licks is releasing here as a 180-gram 4LP set. The compilation gathered three dozen of the most enduring and anthemic songs from the group's peerless career and added four then-new tracks to their incredible story; the four LPs are housed in a wide spine gatefold jacket. The collection times out at more than 2 1/2 hours and includes no fewer than 20 Top 10 singles, including "(I Can't Get No) Satisfaction," "Miss You" and more.`,
+      genre: genres[1]._id,
+      price: 41.99,
+      quantity: 15,
+    },
+    {
+      title:'Californication',
+      artist:'The Red Hot Chili Peppers',
+      image:'cali.jpg',
+      description:`Side 1
+      Around the World
+      Parallel Universe
+      Scar Tissue
+      Otherside
+      
+      Side 2
+      Get on Top
+      Californation
+      Easily
+      
+      Side 3
+      Porcelain
+      Emitremmus
+      I Like Dirt
+      This Velvet Glove
+      
+      Side 4
+      Savior
+      Purple Stain
+      Right on Time
+      Trippin'.
+      The Red Hot Chili Peppers of the quadruple smash Blood Sugar Sex Magik are back — revitalized and reunited — with their first album in four years and perhaps their most anticipated album ever. Most important, Californication marks the homecoming of guitarist John Frusciante, a key ingredient in the group's most successful albums. His return signals the energized re-emergance of one rock's premier emotional, powerful and exciting bands.`,
+      genre: genres[1]._id,
+      price: 34.98,
+      quantity: 19,
+    },
+    {
+      title:'Stadium Arcadium',
+      artist:'The Red Hot Chili Peppers',
+      image:'stadium.jpeg',
+      description:`An ambitious double album, STADIUM ARCADIUM finds the Red Hot Chili Peppers building on their more mature, latter-day approach, while also acknowledging their lighthearted, youthful sound. The Los Angeles-based funk-rock quartet's third studio outing since John Frusciante returned to the fold, this 2006 release once again reinforces how crucial the guitarist is to the Pepper's aesthetic, with his mix of swirling, psychedelic leads and heavy riffs providing the perfect foil to Flea's bold bass heroics. (Instrumentally, the record also benefits from guest appearances by Mars Volta guitarist Omar Rodriguez, percussionists Paulinho Da Costa and Lenny Castro, and the legendary Billy Preston on clavinet.) Remarkably consistent for a two-disc, 28-song offering, STADIUM ARCADIUM kicks off with "Dani California," an energetic track that hints at a Beatles influence, while showcasing vocalist Anthony Kiedis's neo-rap delivery and the tight rhythmic interplay of Flea and drummer Chad Smith. Other highlights of this collection include the emotive "Wet Sand" and the frenetic "Torture Me," which provide nice counterpoints to loose, limber tunes such as the funk workouts "Hump De Bump" and "C'mon Girl." In many ways a culmination of the Chili Peppers' decades-spanning musical evolution, STADIUM ARCADIUM stands as one of the group's most impressive efforts.`,
+      genre: genres[1]._id,
+      price: 29.99,
+      quantity: 5,
+    },
+    
 
   ]);
 
