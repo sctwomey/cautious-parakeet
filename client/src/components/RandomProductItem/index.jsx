@@ -10,9 +10,7 @@ function RandomProductItem(item) {
   const {
     image,
     title,
-    _id,
-    price,
-    quantity
+    _id
   } = item;
 
   const { cart } = state
@@ -39,13 +37,12 @@ function RandomProductItem(item) {
   }
 
   return (
-    <div className="card px-1 py-1">
+    <div className="card random-product-card">
       <Link to={`/products/${_id}`}>
-        <img
+        <img className="img-random-home"
           alt={title}
           src={`/images/${image}`}
         />
-        <p>{title}</p>
       </Link>
       {/* <div>
         <div>{quantity} {pluralize("item", quantity)} in stock</div>

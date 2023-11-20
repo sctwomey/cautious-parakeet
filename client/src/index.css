@@ -3,7 +3,6 @@
 
 :root {
   --primary: rgb(61, 36, 36);
-  /* --secondary: #E09963; */
   --secondary: rgb(158, 81, 81);
   ;
   --tertiary: #5f0d0d;
@@ -180,9 +179,32 @@ input:focus {
   margin-right: auto;
 }
 
+.random-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.random-container h2 {
+  font-family: 'Dancing Script';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.random-product-card {
+  border: none;
+  padding: 10px;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.img-random-home {
+  min-height: 290px;
 }
 
 .productList-content {
@@ -253,6 +275,10 @@ input:focus {
 
 .details-container {
   height: calc(88vh);
+}
+
+.detail-area .details-container {
+  justify-content: flex-start;
 }
 
 .my-2 {
