@@ -19,7 +19,7 @@ function OrderHistory() {
         {user ? (
           <>
             <h2 className='order-history'>
-              Order History for {user.userName}
+              Order History for {user.userName.toUpperCase()}
             </h2>
             {user.orders.map((order) => (
               <div key={order._id} className="my-2">
