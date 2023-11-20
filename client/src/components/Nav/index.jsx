@@ -3,14 +3,27 @@ import { Link, NavLink } from 'react-router-dom';
 import { FaRecordVinyl } from "react-icons/fa";
 
 import { useQuery } from '@apollo/client';
-import { QUERY_USER } from '../utils/queries';
+import { QUERY_USER } from '../../utils/queries';
 
 
 function Nav() {
   function showNavigation() {
+
+    const { data } = useQuery(QUERY_USER);
+    let user;
+
+    if (data) {
+      user = data.user;
+    } else {
+      user = "";
+    }
+
     if (Auth.loggedIn()) {
       return (
         <ul className="nav-list">
+          <li className="nav-userName">
+            <h4>Hello... {user.userName}</h4>
+          </li>
           <li>
             <Link to="/orderHistory" className="nav-link">
               Order History
