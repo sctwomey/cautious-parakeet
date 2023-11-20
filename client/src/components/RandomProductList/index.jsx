@@ -48,16 +48,15 @@ function RandomProducts() {
   // console.log(randomProducts);
 
   return (
-    <div className="my-2">
+    <div className="random-container">
       <h2>Some Vinyls to Explore</h2>
       {randomProducts.length ? (
-        <div className="flex-row">
+        <div className="flex-row random-product-item">
           {randomProducts.map((product) => (
             <RandomProductItem
               key={product._id}
               _id={product._id}
               image={product.image}
-              title={product.title}
             />
           ))}
         </div>

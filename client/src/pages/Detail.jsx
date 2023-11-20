@@ -83,34 +83,34 @@ function Detail() {
 
   return (
     <>
-    <div className='detail-area'>
-      {currentProduct && cart ? (
-        <div className="container my-1 details-container">
-          <Link to="/Shop">← Back to Products</Link>
+      <div className='detail-area'>
+        {currentProduct && cart ? (
+          <div className="container my-1 details-container">
+            <Link to="/Shop" className='d-flex justify-content-left'>← Back to Products</Link>
 
-          <h2>{currentProduct.title}</h2>
+            <h2>{currentProduct.title}</h2>
 
-          <p className='detail-desc'>{currentProduct.description}</p>
+            <p className='detail-desc'>{currentProduct.description}</p>
 
-          <p>
-            <strong>Price:</strong>${currentProduct.price}{' '}
-            <button onClick={addToCart}>Add to Cart</button>
-            <button
-              disabled={!cart.find((p) => p._id === currentProduct._id)}
-              onClick={removeFromCart}
-            >
-              Remove from Cart
-            </button>
-          </p>
+            <p>
+              <strong>Price:</strong>${currentProduct.price}{' '}
+              <button onClick={addToCart}>Add to Cart</button>
+              <button
+                disabled={!cart.find((p) => p._id === currentProduct._id)}
+                onClick={removeFromCart}
+              >
+                Remove from Cart
+              </button>
+            </p>
 
-          <img className="img-details"
-            src={`/images/${currentProduct.image}`}
-            alt={currentProduct.title}
-          />
-        </div>
-      ) : null}
-      {loading ? <img src={spinner} alt="loading" /> : null}
-      <Cart />
+            <img className="img-details"
+              src={`/images/${currentProduct.image}`}
+              alt={currentProduct.title}
+            />
+          </div>
+        ) : null}
+        {loading ? <img src={spinner} alt="loading" /> : null}
+        <Cart />
       </div>
     </>
   );
