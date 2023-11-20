@@ -43,24 +43,26 @@ function GenreMenu() {
 
   return (
     <div className="genre-shop-page">
-      <h2 className="genre-h2">Explore Genres</h2>
-      {genres.map((item) => (
-        <button className="btn btn-genre"
-          key={item._id}
+      <div className='row justify-content-center'>
+        <h2 className="genre-h2">Explore Genres</h2>
+        {genres.map((item) => (
+          <button className="btn btn-genre"
+            key={item._id}
+            onClick={() => {
+              handleClick(item._id);
+            }}
+          >
+            {item.name}
+          </button>
+        ))}
+        <button className="btn btn-genre mt-3"
           onClick={() => {
-            handleClick(item._id);
+            handleClick('');
           }}
         >
-          {item.name}
+          All Genres
         </button>
-      ))}
-      <button className="btn btn-genre"
-        onClick={() => {
-          handleClick('');
-        }}
-      >
-        All
-      </button>
+      </div>
     </div>
   );
 }

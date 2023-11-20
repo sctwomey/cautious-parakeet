@@ -4,7 +4,8 @@
 :root {
   --primary: rgb(61, 36, 36);
   /* --secondary: #E09963; */
-  --secondary: rgb(158, 81, 81);;
+  --secondary: rgb(158, 81, 81);
+  ;
   --tertiary: #5f0d0d;
   --light: #ffffff;
   --dark: #272f32;
@@ -198,7 +199,7 @@ input:focus {
 
 .shop-page-h2 {
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
   color: white;
   background-color: var(--secondary);
@@ -211,7 +212,7 @@ input:focus {
 .genre-h2 {
   color: var(--light);
   background-color: var(--primary);
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .btn-genre {
@@ -219,6 +220,7 @@ input:focus {
   background-color: var(--secondary);
   width: 125px;
   margin-left: 10px;
+  width: 150px;
 }
 
 .btn-genre:hover {
@@ -497,7 +499,7 @@ footer {
 .icons {
   display: flex;
   /* justify-content: space-between; */
-justify-content: center;
+  justify-content: center;
 }
 
 .footer-link a {
@@ -534,7 +536,7 @@ justify-content: center;
 }
 
 .faq-header {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-top: 20px;
   font-size: 50px;
   font-weight: bold;
@@ -557,7 +559,8 @@ justify-content: center;
   display: none;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease; /* Add a smooth transition effect */
+  transition: max-height 0.3s ease;
+  /* Add a smooth transition effect */
   text-align: center;
 }
 
@@ -567,7 +570,8 @@ justify-content: center;
 
 .faq-answer.show {
   display: block;
-  max-height: 1000px; /* Set a large max-height for the dropdown effect */
+  max-height: 1000px;
+  /* Set a large max-height for the dropdown effect */
 }
 
 .shipping-returns-page {
@@ -585,14 +589,15 @@ justify-content: center;
   margin-top: 20px;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex: auto;
   align-items: center;
 }
 
 .search-bar {
-  width: 150px; /* Adjust the width as needed */
+  width: 150px;
+  /* Adjust the width as needed */
 }
 
 .nav-header {
@@ -641,11 +646,13 @@ justify-content: center;
 }
 
 .nav-link:hover {
-  color: white;/* Change color when link is clicked */
+  color: white;
+  /* Change color when link is clicked */
 }
 
 .nav-link:active {
-  color: white /* Change color when link is clicked */
+  color: white
+    /* Change color when link is clicked */
 }
 
 .nav-link,
@@ -654,7 +661,8 @@ justify-content: center;
   text-decoration: none;
   color: var(--light);
   font-size: 1rem;
-  outline: none; /* Remove the default focus outline */
+  outline: none;
+  /* Remove the default focus outline */
 }
 
 .nav-actions {
@@ -705,4 +713,3 @@ justify-content: center;
     margin-right: 0;
   }
 }
-

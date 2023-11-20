@@ -49,7 +49,7 @@ function RandomProducts() {
 
   return (
     <div className="my-2">
-      <h2>Newly Added:</h2>
+      <h2>Some Vinyls to Explore</h2>
       {randomProducts.length ? (
         <div className="flex-row">
           {randomProducts.map((product) => (
