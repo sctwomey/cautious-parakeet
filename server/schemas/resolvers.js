@@ -63,7 +63,7 @@ const resolvers = {
           price_data: {
             currency: 'usd',
             product_data: {
-              name: product.title,
+              name: product.title, // This must be name for this field.
               description: product.description,
               images: [`${url}/images/${product.image}`],
             },
