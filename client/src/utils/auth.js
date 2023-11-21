@@ -23,7 +23,7 @@ class AuthService {
   }
 
   getToken() {
-    // Retrieves the user token from localStorage
+    // Retrieves the user token from localStorage - comment added
     return localStorage.getItem('id_token');
   }
 
