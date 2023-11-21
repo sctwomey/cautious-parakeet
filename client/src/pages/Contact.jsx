@@ -1,8 +1,3 @@
-import { Link } from 'react-router-dom';
-
-// import { useQuery } from '@apollo/client';
-// import { QUERY_USER } from '../utils/queries';
-
 import React, { useState } from 'react';
 
 const Contact = () => {

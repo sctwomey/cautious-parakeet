@@ -426,10 +426,6 @@ input:focus {
   border: 2px solid var(--primary);
 }
 
-.form-group textarea {
-  padding-top: 100px;
-}
-
 .btn-submit {
   padding: 5px;
   width: 40%;

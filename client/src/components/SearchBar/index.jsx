@@ -1,54 +1,69 @@
-import { useState } from 'react';
-import { QUERY_PRODUCTS } from '../../utils/queries';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import Result from './Result';
+import styles from './SearchBar.module.css';
 
-function SearchBar() {
-    // the value of the search field 
-    const [title, setTitle] = useState('');
+const SearchBar = () => {
+    const [value, setValue] = useState(''); // Here we'll store the value of the search bar's text input
+    const [suggestions, setSuggestions] = useState([]); // This is where we'll store the retrieved suggestions
+    const [hideSuggestions, setHideSuggestions] = useState(true);
+    const [result, setResult] = useState(null);
 
-    // the search result
-    const [foundProducts, setFoundProducts] = useState(QUERY_PRODUCTS);
-
-    const filter = (e) => {
-        const keyword = e.target.value;
-
-        if (keyword !== '') {
-            const results = QUERY_PRODUCTS.filter((item) => {
-                return item.title.toLowerCase().startsWith(keyword.toLowerCase());
-                // Use the toLowerCase() method to make it case-insensitive
-            });
-            setFoundProducts(results);
-        } else {
-            setFoundProducts(QUERY_PRODUCTS);
-            // If the text field is empty, show all products
-        }
-
-        setTitle(keyword);
+    const findResult = (title) => {
+        setResult(suggestions.find((suggestion) => suggestion.title === title));
     };
 
-    return (
-        <div className="container">
-            <input
-                type="search"
-                value={title}
-                onChange={filter}
-                className="input"
-                placeholder="Filter"
-            />
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const { data } = await axios.get(
+                    `https://localhost:3001/shop/search?q=${value}`
+                );
 
-            <div className="user-list">
-                {foundProducts && foundProducts.length > 0 ? (
-                    foundProducts.map((item) => (
-                        <li key={item.id} className="product-item">
-                            <span className="user-id">{item.id}</span>
-                            <span className="user-name">{item.title}</span>
-                        </li>
-                    ))
-                ) : (
-                    <h1>No results found!</h1>
-                )}
+                setSuggestions(data.products);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+
+        fetchData();
+    }, [value]);
+
+    return (
+        <>
+            <div className={styles.container}>
+                <input
+                    onFocus={() => setHideSuggestions(false)}
+                    onBlur={async () => {
+                        setTimeout(() => {
+                            setHideSuggestions(true);
+                        }, 200);
+                    }}
+                    type="text"
+                    className={styles.textbox}
+                    placeholder="Search data..."
+                    value={value}
+                    onChange={(e) => {
+                        setValue(e.target.value);
+                    }}
+                />
+                <div
+                    className={`${styles.suggestions} ${hideSuggestions && styles.hidden
+                        }`}
+                >
+                    {suggestions.map((suggestion) => (
+                        <div
+                            className={styles.suggestion}
+                            onClick={() => findResult(suggestion.title)}
+                        >
+                            {suggestion.title}
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
+            {result && <Result {...result} />}
+        </>
     );
-}
+};
 
 export default SearchBar;
