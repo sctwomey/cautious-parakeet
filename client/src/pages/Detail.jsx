@@ -86,14 +86,13 @@ function Detail() {
       <div className='detail-area'>
         {currentProduct && cart ? (
           <div className="container my-1 details-container">
-            <Link to="/Shop" className='d-flex justify-content-left'>← Back to Shop Page</Link>
+            <Link to="/Shop" className='d-flex justify-content-left'>← Back to the Shop Page</Link>
 
             <h2>{currentProduct.title}</h2>
 
             <p className='detail-desc'>{currentProduct.description}</p>
-
             <p>
-              <strong>Price:</strong>${currentProduct.price}{' '}
+              <h5><b>Price: ${currentProduct.price}{' '}</b></h5><br />
               <button onClick={addToCart}>Add to Cart</button>
               <button
                 disabled={!cart.find((p) => p._id === currentProduct._id)}
@@ -111,7 +110,7 @@ function Detail() {
         ) : null}
         {loading ? <img src={spinner} alt="loading" /> : null}
         <Cart />
-      </div>
+      </div >
     </>
   );
 }
