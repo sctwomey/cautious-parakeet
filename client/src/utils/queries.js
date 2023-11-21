@@ -40,6 +40,15 @@ export const QUERY_ALL_PRODUCTS = gql`
   }
 `;
 
+export const QUERY_ARTIST = gql`
+query getArtist($artist: String) {
+  getArtist(artist: $artist) {
+    artist
+    title
+  }
+}
+`;
+
 export const QUERY_GENRES = gql`
   {
     genres {
