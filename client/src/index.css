@@ -116,8 +116,10 @@ header ul {
 
 .nav-userName {
   color: var(--light);
-  margin-right: 100px;
+  margin: 15px;
   text-transform: capitalize;
+  font-size: 20px;
+ 
 }
 
 button {
@@ -637,7 +639,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   background: var(--primary);
-  padding: 10px;
 }
 
 .logo {
@@ -645,6 +646,7 @@ footer {
   align-items: center;
   text-decoration: none;
   color: var(--light);
+  font-size: 10px;
 }
 
 .logo span {
