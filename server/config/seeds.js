@@ -887,7 +887,7 @@ db.once('open', async () => {
       15. Boilermaker [Idful Studios Sessions Demo] [Demo Version].
       
       Remastered in 2009 by Steve Albini and Bob Weston. Vinyl packaged in deluxe gatefold album jacket with 12"x24" double sided color insert including never before seen photos, & extensive liner notes by the band & by journalists who were there. Vinyl also includes a digital download coupon for entire LP, plus 4 bonus tracks not included on the LP. HQ-120 virgin vinyl pressing made at RTI. CD in deluxe Digipak with 14"x20" double sided color folder including never before seen photos & extensive liner notes by the band & by journalists who were there. CD also includes 4 bonus tracks.`,
-      genre: genres[2]._id,
+      genre: genres[1]._id,
       price: 24.99,
       quantity: 7
     },
