@@ -17,7 +17,7 @@ db.once('open', async () => {
     { name: 'Synthwave' }
   ]);
 
-  console.log('genres seeded');
+  console.log('Genres seeded');
 
   const products = await Product.insertMany([
     {
@@ -1083,7 +1083,7 @@ db.once('open', async () => {
       title: 'The Best of Earth, Wind, & Fire Vol. 1',
       artist: 'Earth, Wind, & Fire',
       image: 'earth.jpg',
-      description:`Track Listings
+      description: `Track Listings
       Disc: 1
       1	Got to Get You Into My Life
       2	Fantasy
@@ -1103,10 +1103,10 @@ db.once('open', async () => {
       quantity: 10
     },
     {
-      title:'Spirit',
-      artist:'Earth, Wind, & Fire',
-      image:'earth2.jpg',
-      description:`1. Getaway
+      title: 'Spirit',
+      artist: 'Earth, Wind, & Fire',
+      image: 'earth2.jpg',
+      description: `1. Getaway
       2. On Your Face
       3. Imagination
       4. Spirit
@@ -1123,10 +1123,10 @@ db.once('open', async () => {
       quantity: 5,
     },
     {
-      title:'Funkadelic',
-      artist:'Parliament',
-      image:'funkadelic.jpeg',
-      description:`Album Tracks
+      title: 'Funkadelic',
+      artist: 'Parliament',
+      image: 'funkadelic.jpeg',
+      description: `Album Tracks
 
       1. Mommy, What's A Funkadelic
       2. I'll Bet You
@@ -1141,10 +1141,10 @@ db.once('open', async () => {
       quantity: 5,
     },
     {
-      title:'Mothership Connection',
-      artist:'Parliament',
-      image:'mothership.jpg',
-      description:`Track Listings
+      title: 'Mothership Connection',
+      artist: 'Parliament',
+      image: 'mothership.jpg',
+      description: `Track Listings
       1	Funk (Wants to Get Funked Up)
       2	Mothership Connection (Star Child)
       3	Unfunky Ufo
@@ -1159,10 +1159,10 @@ db.once('open', async () => {
       quantity: 7,
     },
     {
-      title:'Forty Licks',
-      artist:'The Rolling Stones',
-      image:'40licks.jpg',
-      description:`Side A
+      title: 'Forty Licks',
+      artist: 'The Rolling Stones',
+      image: '40licks.jpg',
+      description: `Side A
       Street Fighting Man
       Gimme Shelter
       (I Can’t Get No) Satisfaction
@@ -1216,10 +1216,10 @@ db.once('open', async () => {
       quantity: 15,
     },
     {
-      title:'Californication',
-      artist:'The Red Hot Chili Peppers',
-      image:'cali.jpg',
-      description:`Side 1
+      title: 'Californication',
+      artist: 'The Red Hot Chili Peppers',
+      image: 'cali.jpg',
+      description: `Side 1
       Around the World
       Parallel Universe
       Scar Tissue
@@ -1247,19 +1247,19 @@ db.once('open', async () => {
       quantity: 19,
     },
     {
-      title:'Stadium Arcadium',
-      artist:'The Red Hot Chili Peppers',
-      image:'stadium.jpeg',
-      description:`An ambitious double album, STADIUM ARCADIUM finds the Red Hot Chili Peppers building on their more mature, latter-day approach, while also acknowledging their lighthearted, youthful sound. The Los Angeles-based funk-rock quartet's third studio outing since John Frusciante returned to the fold, this 2006 release once again reinforces how crucial the guitarist is to the Pepper's aesthetic, with his mix of swirling, psychedelic leads and heavy riffs providing the perfect foil to Flea's bold bass heroics. (Instrumentally, the record also benefits from guest appearances by Mars Volta guitarist Omar Rodriguez, percussionists Paulinho Da Costa and Lenny Castro, and the legendary Billy Preston on clavinet.) Remarkably consistent for a two-disc, 28-song offering, STADIUM ARCADIUM kicks off with "Dani California," an energetic track that hints at a Beatles influence, while showcasing vocalist Anthony Kiedis's neo-rap delivery and the tight rhythmic interplay of Flea and drummer Chad Smith. Other highlights of this collection include the emotive "Wet Sand" and the frenetic "Torture Me," which provide nice counterpoints to loose, limber tunes such as the funk workouts "Hump De Bump" and "C'mon Girl." In many ways a culmination of the Chili Peppers' decades-spanning musical evolution, STADIUM ARCADIUM stands as one of the group's most impressive efforts.`,
+      title: 'Stadium Arcadium',
+      artist: 'The Red Hot Chili Peppers',
+      image: 'stadium.jpeg',
+      description: `An ambitious double album, STADIUM ARCADIUM finds the Red Hot Chili Peppers building on their more mature, latter-day approach, while also acknowledging their lighthearted, youthful sound. The Los Angeles-based funk-rock quartet's third studio outing since John Frusciante returned to the fold, this 2006 release once again reinforces how crucial the guitarist is to the Pepper's aesthetic, with his mix of swirling, psychedelic leads and heavy riffs providing the perfect foil to Flea's bold bass heroics. (Instrumentally, the record also benefits from guest appearances by Mars Volta guitarist Omar Rodriguez, percussionists Paulinho Da Costa and Lenny Castro, and the legendary Billy Preston on clavinet.) Remarkably consistent for a two-disc, 28-song offering, STADIUM ARCADIUM kicks off with "Dani California," an energetic track that hints at a Beatles influence, while showcasing vocalist Anthony Kiedis's neo-rap delivery and the tight rhythmic interplay of Flea and drummer Chad Smith. Other highlights of this collection include the emotive "Wet Sand" and the frenetic "Torture Me," which provide nice counterpoints to loose, limber tunes such as the funk workouts "Hump De Bump" and "C'mon Girl." In many ways a culmination of the Chili Peppers' decades-spanning musical evolution, STADIUM ARCADIUM stands as one of the group's most impressive efforts.`,
       genre: genres[1]._id,
       price: 29.99,
       quantity: 5,
     },
-    
+
 
   ]);
 
-  console.log('products seeded');
+  console.log('Products seeded');
 
   await User.create({
     userName: 'pam',
@@ -1278,7 +1278,7 @@ db.once('open', async () => {
     password: 'password12345'
   });
 
-  console.log('users seeded');
+  console.log('Users seeded');
 
   process.exit();
 });

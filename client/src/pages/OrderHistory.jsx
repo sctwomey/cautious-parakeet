@@ -17,14 +17,14 @@ function OrderHistory() {
         <Link to="/shop">← Back to Products</Link>
 
         {user ? (
-          <>
+          <div>
             <h2 className='order-history'>
-              Order History for {user.userName}
+              Your Order History
             </h2>
             {user.orders.map((order) => (
               <div key={order._id} className="my-2">
                 <h3>
-                  {new Date(parseInt(order.purchaseDate)).toLocaleDateString()}
+                  Order Date: {new Date(parseInt(order.purchaseDate)).toLocaleDateString()}
                 </h3>
                 <div className="flex-row">
                   {order.products.map(({ _id, image, title, price }, index) => (
@@ -41,7 +41,7 @@ function OrderHistory() {
                 </div>
               </div>
             ))}
-          </>
+          </div>
         ) : null}
       </div>
     </>

@@ -114,6 +114,12 @@ header ul {
   font-size: 32px;
 }
 
+.nav-userName {
+  color: var(--light);
+  margin-right: 200px;
+  text-transform: capitalize;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -363,7 +369,8 @@ input:focus {
 .order-history {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
-  margin-bottom: 200px;
+  justify-content: center;
+  margin-bottom: 50px;
   text-align: center;
   color: rgb(0, 0, 0);
   width: 100%;
@@ -417,10 +424,6 @@ input:focus {
   border-radius: 5px;
   font-size: 1rem;
   border: 2px solid var(--primary);
-}
-
-.form-group textarea {
-  /* padding-top: 100px; */
 }
 
 .btn-submit {

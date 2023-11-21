@@ -1,13 +1,30 @@
 import Auth from "../../utils/auth";
 import { Link, NavLink } from 'react-router-dom';
 import { FaRecordVinyl } from "react-icons/fa";
+// import { SearchBar } from "../SearchBar";
+
+import { useQuery } from '@apollo/client';
+import { QUERY_USER } from '../../utils/queries';
 
 
 function Nav() {
   function showNavigation() {
+
+    const { data } = useQuery(QUERY_USER);
+    let user;
+
+    if (data) {
+      user = data.user;
+    } else {
+      user = "";
+    }
+
     if (Auth.loggedIn()) {
       return (
         <ul className="nav-list">
+          <li className="nav-userName">
+            <h4>Hello... {user.userName}</h4>
+          </li>
           <li>
             <Link to="/orderHistory" className="nav-link">
               Order History
@@ -19,6 +36,7 @@ function Nav() {
             </a>
           </li>
           <li className="search-bar-container">
+            {/* <SearchBar /> */}
             <input className="search-bar" type="text" placeholder="Search.." />
           </li>
           <li>
