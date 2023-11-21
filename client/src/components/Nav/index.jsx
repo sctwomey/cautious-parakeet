@@ -22,8 +22,8 @@ function Nav() {
     if (Auth.loggedIn()) {
       return (
         <ul className="nav-list">
-          <li className="nav-userName">
-            <h4>Hello... {user.userName}</h4>
+          <li >
+            <h4 className="nav-userName">Hello... {user.userName}</h4>
           </li>
           <li>
             <Link to="/orderHistory" className="nav-link">

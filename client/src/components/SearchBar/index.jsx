@@ -43,7 +43,7 @@ function SearchBar() {
                     }}
                     type="text"
                     className={styles.textbox}
-                    placeholder="Search for your vinyl..."
+                    placeholder="Search for vinyls..."
                     value={value}
                     onChange={(e) => {
                         setValue(e.target.value);
