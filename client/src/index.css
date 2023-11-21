@@ -420,7 +420,7 @@ input:focus {
 }
 
 .form-group textarea {
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 .btn-submit {
