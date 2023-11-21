@@ -17,8 +17,8 @@ function SearchBar() {
             });
             console.log(queryResponse);
 
-        } catch (e) {
-            console.log('error', e);
+        } catch (event) {
+            console.log('error', event);
         }
     };
 
@@ -30,8 +30,8 @@ function SearchBar() {
                     className={styles.textbox}
                     placeholder="Search for vinyls..."
                     value={value}
-                    onChange={(e) => {
-                        setValue(e.target.value);
+                    onChange={(event) => {
+                        setValue(event.target.value);
                     }}
                 />
                 <div className="flex-row justify-content-center">
