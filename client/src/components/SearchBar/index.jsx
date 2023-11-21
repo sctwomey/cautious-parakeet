@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Result from './Result';
 import styles from './SearchBar.module.css';
 
-const SearchBar = () => {
+function SearchBar() {
+
     const [value, setValue] = useState(''); // Here we'll store the value of the search bar's text input
     const [suggestions, setSuggestions] = useState([]); // This is where we'll store the retrieved suggestions
     const [hideSuggestions, setHideSuggestions] = useState(true);
@@ -21,6 +22,7 @@ const SearchBar = () => {
                 );
 
                 setSuggestions(data.products);
+
             } catch (error) {
                 console.log(error);
             }
@@ -41,7 +43,7 @@ const SearchBar = () => {
                     }}
                     type="text"
                     className={styles.textbox}
-                    placeholder="Search data..."
+                    placeholder="Search for your vinyl..."
                     value={value}
                     onChange={(e) => {
                         setValue(e.target.value);
