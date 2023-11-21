@@ -86,7 +86,7 @@ function Detail() {
       <div className='detail-area'>
         {currentProduct && cart ? (
           <div className="container my-1 details-container">
-            <Link to="/Shop" className='d-flex justify-content-left'>← Back to Products</Link>
+            <Link to="/Shop" className='d-flex justify-content-left'>← Back to Shop Page</Link>
 
             <h2>{currentProduct.title}</h2>
 
