@@ -571,6 +571,10 @@ footer {
   font-size: 45px;
 }
 
+.faq-page {
+  height: calc(62.7vh);
+}
+
 .faq-list {
   list-style: none;
   padding-left: 80px;
