@@ -5,8 +5,7 @@ import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
-import spinner from '../../../public/images';
-import { FaAlignCenter } from 'react-icons/fa';
+import spinner from '../../../public/images/spinner.gif';
 
 function RandomProducts() {
   const [state, dispatch] = useStoreContext();
