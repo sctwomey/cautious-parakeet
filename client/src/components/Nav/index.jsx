@@ -1,7 +1,6 @@
 import Auth from "../../utils/auth";
 import { Link, NavLink } from 'react-router-dom';
 import { FaRecordVinyl } from "react-icons/fa";
-// import SearchBar from "../SearchBar";
 
 import { useQuery } from '@apollo/client';
 import { QUERY_USER } from '../../utils/queries';
@@ -36,7 +35,6 @@ function Nav() {
             </a>
           </li>
           <li className="search-bar-container">
-            {/* <SearchBar /> */}
             <input className="search-bar" type="text" placeholder="Search.." />
           </li>
           <li>
