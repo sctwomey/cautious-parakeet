@@ -40,6 +40,7 @@ GitHup Repository: https://github.com/sctwomey/cautious-parakeet
 
 <img src="/client/public/images/homepage-top.PNG" alt="Record Store Homepage1 File Image" title="Record Store Homepage1 File Screenshot">
 <img src="/client/public/images/homepage-bottom.PNG" alt="Record Store Homepage2 File Image" title="Record Store Homepage2 File Screenshot">
+<img src="client/public/images/homepage-logged-in.PNG" alt="Record Store Homepage Logged In File Image" title="Record Store Homepage Logged In File Screenshot">
 <img src="/client/public/images/shoppage-top.PNG" alt="Record Store Shop Page File Image" title="Record Store Shop Page File Screenshot">
 <img src="/client/public/images/signup-page.PNG" alt="Record Store Signup Page File Image" title="Record Store Signup Page File Screenshot">
 
