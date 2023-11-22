@@ -16,7 +16,7 @@ This E-commerce application will allow a user to find vinyl records by various s
 
 ## Links
 
-Deployed Application: https://calm-brook-71161-f845433ab510.herokuapp.com/
+Deployed Application: https://calm-brook-71161-f845433ab510.herokuapp.com/<br>
 GitHup Repository: https://github.com/sctwomey/cautious-parakeet
 
 ## Technologies
