@@ -16,7 +16,8 @@ This E-commerce application will allow a user to find vinyl records by various s
 
 ## Links
 
-Deployed application: https://calm-brook-71161-f845433ab510.herokuapp.com/
+Deployed Application: https://calm-brook-71161-f845433ab510.herokuapp.com/
+GitHup Repository: https://github.com/sctwomey/cautious-parakeet
 
 ## Technologies
 
@@ -28,6 +29,7 @@ Deployed application: https://calm-brook-71161-f845433ab510.herokuapp.com/
 * Node.js
 * MongoDB
 * MongoDB Compass
+* MongoDB Atlas
 * Mongoose
 * Bootstrap
 * React
@@ -36,7 +38,10 @@ Deployed application: https://calm-brook-71161-f845433ab510.herokuapp.com/
 
 ## Picture Refs
 
-
+<img src="/public/images/homepage-top.PNG" alt="Record Store Homepage1 File Image" title="Record Store Homepage1 File Screenshot">
+<img src="/public/images/homepage-bottom.PNG" alt="Record Store Homepage2 File Image" title="Record Store Homepage2 File Screenshot">
+<img src="/public/images/shoppage-top.PNG" alt="Record Store Shop Page File Image" title="Record Store Shop Page File Screenshot">
+<img src="/public/images/signup-page.PNG" alt="Record Store Signup Page File Image" title="Record Store Signup Page File Screenshot">
 
 ## Authors
 
