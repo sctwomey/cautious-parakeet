@@ -25,10 +25,6 @@ const resolvers = {
     product: async (parent, { _id }) => {
       return await Product.findById(_id).populate('genre');
     },
-    getArtist: async (parent, { artist }) => {
-      console.log(artist);
-      return await Product.find({ artist: artist }).populate('genre');
-    },
     user: async (parent, args, context) => {
       if (context.user) {
         const user = await User.findById(context.user._id).populate({

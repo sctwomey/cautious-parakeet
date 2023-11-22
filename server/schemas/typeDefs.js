@@ -51,7 +51,6 @@ const typeDefs = `
     genres: [Genre]
     products: [Product]
     product(_id: ID!): Product
-    getArtist(artist: String!): [Product]
     user: User
     order(_id: ID!): Order
     checkout(products: [ProductInput]): Checkout
